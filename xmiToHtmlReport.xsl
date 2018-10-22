@@ -35,7 +35,7 @@
 	<!--fang pakker og send til pakketemplate -->
 	<xsl:apply-templates select="//uml:Model/packagedElement[@xmi:type='uml:Package']"/>
 </body></html>
-</xsl:template>
+</xsl:template> 
 
 <!-- Pakkens template, som styrer target-dokumentetes struktur -->
 <xsl:template match="//uml:Model/packagedElement[@xmi:type='uml:Package']">
