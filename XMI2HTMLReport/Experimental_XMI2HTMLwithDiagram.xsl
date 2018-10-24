@@ -15,12 +15,13 @@
 	xmlns:Plusprofil="http://www.sparxsystems.com/profiles/Plusprofil/1.0"
 	xmlns:OWL="http://www.sparxsystems.com/profiles/OWL/1.0"
 	xmlns:umldi="http://www.omg.org/spec/UML/20131001/UMLDI" 
-	xmlns:my="http://example.com/thisdoc#"
-	exclude-result-prefixes="xsl rdf rdfs owl dc uml xmi thecustomprofile Grunddata GML Plusprofil OWL umldi my">
+	xmlns:my="http://example.com/thisdoc#" 
+	xmlns:svg="http://www.w3.org/2000/svg"
+	exclude-result-prefixes="xsl rdf rdfs owl dc uml xmi thecustomprofile Grunddata GML Plusprofil OWL umldi my svg">
 
 	<!-- Specificer, at outputtet af transformationen er et html-dokument -->
-	<xsl:output method="html" omit-xml-declaration="yes" indent="yes" encoding="UTF-8"/>
-	<xsl:preserve-space elements="svg"/>
+	<xsl:output method="html" omit-xml-declaration="yes" indent="yes" encoding="UTF-8" />
+	
 	<!-- 'keys' som hjælper med at fjerne dublikater længere nede -->
 	<xsl:key name="x" match="@name" use="." />
 	<xsl:key name="y" match="@name" use="." />
@@ -29,7 +30,7 @@
 <!-- match alt  -->
 	<xsl:template match="/">
 	<!-- templaten skriver HTML-dokumentet p&#229; basis af modelpakken -->
-	<!-- [@xmi:type='umldi:UMLClassifierShape'] -->
+	
 	   
 	        
 	        
@@ -506,7 +507,7 @@
 		<h1>Diagram:<xsl:value-of select="/xmi:XMI/xmi:Extension/diagrams/diagram[@xmi:id=current()/@xmi:id]/properties/@name" /></h1>
 		
 		<!-- tegn diagram vha svg--> 
-		<svg contentscripttype="text/ecmascript"  viewBox="0 0 {$bredde} {$hoejde +6}" contentstyletype="text/css" id="svg4155" preserveAspectRatio="xMidYMid meet" version="1.1" width="90%" xmlns="http://www.w3.org/2000/svg">
+		<svg contentscripttype="text/ecmascript"  viewBox="0 0 {$bredde} {$hoejde +6}" contentstyletype="text/css" id="svg4155" preserveAspectRatio="xMidYMid meet" version="1.1" width="90%" >
 			
 			<!-- loop over alle klasseelementer -->		
 			<xsl:for-each select="//ownedElement[@xmi:type='umldi:UMLClassifierShape' or @xmi:type='umldi:UMLCompartmentableShape']">
@@ -576,21 +577,29 @@
 					</text>
 					
 					
-					<!-- pile -->
-					<xsl:for-each select="//ownedElement[@xmi:type='umldi:UMLEdge']">
-						 <path fill="none" stroke="red" d="M 
-    					<xsl:for-each select="waypoint">
-							{./@x},{./@y},
-							
-						</xsl:for-each>
-						"/>	
-					</xsl:for-each>
+
 					<xsl:if  test="contains(//Plusprofil:OwlClass[@base_Class=current()/@modelElement]/@subClassOf,'http://www.w3.org/2004/02/skos/core#Concept')">
 						<use x="-50" y="-45" transform="scale(0.45)"   href="#klassifikationsikon"/>
 					</xsl:if>
 					
 				</g>
 				
+			</xsl:for-each>
+			<!-- pile -->
+			<xsl:for-each select="//ownedElement[@xmi:type='umldi:UMLEdge']">
+			
+				<!-- lav en variabel indeholdende pathëns d-værdi (linjepunkter) baseret på XMI-dokumentets waypoints -->
+				<xsl:variable name="dString">
+					<xsl:call-template name="pathfinder">
+						<xsl:with-param name="counter" select="1"/>
+						<xsl:with-param name="points" select="current()/waypoint"/>
+						<xsl:with-param name="PdString" select="'M '"/>
+					</xsl:call-template>
+				</xsl:variable>
+				<!-- tegn pilen -->
+				<path fill="none" stroke="black" d="{$dString}" />	
+							
+							
 			</xsl:for-each>
 	<!-- Hent en masse styling -->
 	<xsl:call-template name="indsaet_definitioner"/>
@@ -603,6 +612,29 @@
 </xsl:template>	
 
 
+  
+  <!-- template som rekurserende bygger d-værdi til paths til associationer -->
+  <xsl:template name="pathfinder">
+		<xsl:param name="counter"/>
+		<xsl:param name="points"/>
+		<xsl:param name="PdString"/>
+		
+		<xsl:choose>
+		<xsl:when test="$counter &lt; count($points)">
+		
+			<xsl:call-template name="pathfinder">
+				<xsl:with-param name="counter" select="$counter + 1"/>
+				<xsl:with-param name="points" select="$points"/>
+				<xsl:with-param name="PdString" select="concat($PdString, $points[$counter]/@x, ', ', $points[$counter]/@y, ' ' )"/>
+			</xsl:call-template>
+		</xsl:when>
+		<xsl:otherwise>
+		
+			<xsl:value-of select="concat($PdString, $points[$counter]/@x, ', ', $points[$counter]/@y)" />
+		</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>
+  
 	<!-- Hjælper, som finder tekst efter sidste forekomst af et tegn i en streng -->
 	<xsl:template name="substring-after-last">
 	    <xsl:param name="string" />
@@ -617,7 +649,6 @@
 	    	<xsl:otherwise><xsl:value-of select="$string" /></xsl:otherwise>
     	</xsl:choose>
   </xsl:template>
-  
   
 <!--  en masse styling -->
 <xsl:template  name="indsaet_definitioner">		
@@ -710,6 +741,6 @@
   </defs>
   
   </xsl:template>
-
+	
 </xsl:stylesheet>
 
