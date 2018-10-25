@@ -1,0 +1,64 @@
+html, body {
+	
+  padding: 2em 1em 2em 50px;
+  background: white;
+  font-family: sans-serif;  
+}
+
+h3{
+    padding: none;
+}
+
+
+input[type=url] {
+    width: 500px;
+    padding: 5px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+	display: inline;
+}
+
+select {
+    width: 500px;
+	height:50px
+	display: inline;
+
+}
+
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #940027;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+	display: block;
+    width: 500px;	
+}
+
+@media (max-width: 600px) {
+  form > div {
+    margin: 0 0 15px 0; 
+  }
+  form > div > label,
+  legend {
+	width: 100%;
+    float: none;
+    margin: 0 0 5px 0;
+  }
+  form > div > div,
+  form > div > fieldset > div {
+    width: 100%;
+    float: none;
+  }
+  input[type=text],
+  input[type=url],
+  textarea,
+  select {
+    width: 100%; 
+  }
+}
+
+}
