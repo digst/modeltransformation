@@ -7,4 +7,4 @@ Click below to see an implementation (Klik herunder for at se en implementering)
 Implementation: https://data.gov.dk/rdf2html/
 
 
-![Implementation Screenshot](/screenshot.png)
+![Implementation Screenshot](screenshot.png)
