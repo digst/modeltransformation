@@ -5,5 +5,4 @@ Artefacts useful for transforming models from one modelling language to another 
 Artefact | Description
 ------------ | -------------
 [XMI2HTMLReport](https://github.com/digst/modeltransformation/tree/master/XMI2HTMLReport)  | Tranformation som kan omdanne XMI til HTML-modelrapporter
-
 [rdf2html](https://github.com/digst/modeltransformation/tree/master/rdf2html)  | Transformation om kan omdanne RDF/XML til HTML-modelrapporter
