@@ -5,3 +5,6 @@ Display RDF/XML-files (vocabularies and applicationprofiles) as simplified RDF r
 Click below to see an implementation (Klik herunder for at se en implementering)
 
 Implementation: https://data.gov.dk/rdf2html/
+
+
+![Implementation Screenshot](/screenshot.png)
