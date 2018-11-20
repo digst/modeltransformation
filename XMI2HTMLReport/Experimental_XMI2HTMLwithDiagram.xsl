@@ -509,8 +509,8 @@
 		<!-- tegn diagram vha svg--> 
 		<svg contentscripttype="text/ecmascript"  viewBox="0 0 {$bredde} {$hoejde +6}" contentstyletype="text/css" id="svg4155" preserveAspectRatio="xMidYMid meet" version="1.1" width="90%" >
 			
-			<!-- loop over alle klasseelementer -->		
-			<xsl:for-each select="//ownedElement[@xmi:type='umldi:UMLClassifierShape' or @xmi:type='umldi:UMLCompartmentableShape']">
+			<!-- loop over alle klasseelementer i diagrammet-->		
+			<xsl:for-each select="./ownedElement[@xmi:type='umldi:UMLClassifierShape' or @xmi:type='umldi:UMLCompartmentableShape']">
 				<!-- Lav link til ned i rapporten -->
 				<!-- Nogle elementer har # i id andre har ikke - derfor må vi finde teksten efter '#' eller sidste '/' -->
 				<xsl:variable name="elementRef" select="//Plusprofil:OwlClass[@base_Class=current()/@modelElement]/@URI"/> 
@@ -565,11 +565,12 @@
 							<!-- </xsl:otherwise>
 						</xsl:choose>  -->
 					</text>
+					<!-- skriv attributter -->
 					<text transform="translate(11 26)">
 						<xsl:for-each select="/xmi:XMI/uml:Model/packagedElement/packagedElement[@xmi:id=current()/@modelElement]/ownedAttribute[not(@association)]">
 						
 						<!-- increase dy for hvert loop -->
-							<tspan x="0" y="{position() * 14}" font-size="10" id="text4261" fill="black">
+							<tspan x="0" y="{position() * 14}" font-size="10" fill="black">
 								<xsl:value-of select="./@name" />
 						
 					</tspan>
@@ -586,7 +587,7 @@
 				
 			</xsl:for-each>
 			<!-- pile -->
-			<xsl:for-each select="//ownedElement[@xmi:type='umldi:UMLEdge']">
+			<xsl:for-each select="./ownedElement[@xmi:type='umldi:UMLEdge']">
 			
 				<!-- lav en variabel indeholdende pathëns d-værdi (linjepunkter) baseret på XMI-dokumentets waypoints -->
 				<xsl:variable name="dString">
@@ -597,10 +598,38 @@
 					</xsl:call-template>
 				</xsl:variable>
 				<!-- tegn pilen -->
-				<path fill="none" stroke="black" d="{$dString}" />	
-							
-							
+				<path fill="none" stroke="black" d="{$dString}" style="marker-end:url(#Arrow2Mend)"/>
+					
+				
+					<!-- associationsender -->
+					<xsl:for-each select="./ownedElement[@xmi:type='umldi:UMLAssociationEndLabel']">
+						<text x="{./bounds/@x - 2}" y="{./bounds/@y + 8}" font-size="9" ><xsl:value-of select="./@text"/></text>
+					</xsl:for-each>		
+					<!-- multipliciteter -->
+					<xsl:for-each select="./ownedElement[@xmi:type='umldi:UMLMultiplicityLabel']">
+						<text x="{./bounds/@x - 1}" y="{./bounds/@y+12}" font-size="12" ><xsl:value-of select="./@text"/></text>
+					</xsl:for-each>		
+				
 			</xsl:for-each>
+			<!-- notefelt - ikke i brug
+			
+			<xsl:for-each select="./ownedElement[@xmi:type='umldi:UMLShape']">
+				<xsl:variable name="linjer">
+					  <xsl:call-template name="allSpaces">
+  						<xsl:with-param name="chopString" select="//ownedComment['xmi:id=current()/@modelElement']/@body"/> -->
+  						<!-- <xsl:with-param name="resultString" select=" concat(' ',' ')"/> -->
+  					<!--	</xsl:call-template>
+				</xsl:variable>
+					<g x="{./bounds/@x}" y="{./bounds/@y}">
+						<rect  rx="5" ry="5" height="{./bounds/@height}" width="{./bounds/@width}" style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.06500006;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;"/> -->
+						 <!-- <foreignObject x="7" y="15" width="{./bounds/@width}" height="{./bounds/@height}">
+						<div style="white-space:nowrap"><xsl:value-of select="translate(translate(//ownedComment['xmi:id=current()/@modelElement']/@body, ' ','&#160;'),'&#xA;','hat')"></xsl:value-of></div>
+						</foreignObject> -->
+						<!-- <xsl:value-of select="$linjer" />
+					</g>
+				</xsl:for-each>	
+				-->
+
 	<!-- Hent en masse styling -->
 	<xsl:call-template name="indsaet_definitioner"/>
 	
@@ -649,6 +678,26 @@
 	    	<xsl:otherwise><xsl:value-of select="$string" /></xsl:otherwise>
     	</xsl:choose>
   </xsl:template>
+  
+  
+  <!-- template til at opsplitte namespaceboxen 
+  <xsl:template name="allSpaces">
+  	<xsl:param name="chopString"/>
+  	<xsl:param name="resultString"/>
+  	<xsl:choose>
+  		<xsl:when test="contains($chopString, '&#xA;')">
+  			<xsl:call-template name="allSpaces">
+  				<xsl:with-param name="chopString" select="substring-after($chopString, '&#xA;')"/>
+  				<text><xsl:value-of select="substring-before($chopString, '&#xA;')"/></text> -->
+  				<!-- <xsl:with-param name="resultString" select="concat($resultString,'&lt;text&gt;',substring-before($chopString, '&#xA;'),'&lt;/text&gt;')"/> -->
+  		<!-- 	</xsl:call-template>
+  		</xsl:when>
+  		<xsl:otherwise>
+  			<xsl:value-of select="concat($resultString, $chopString)"/>
+  		</xsl:otherwise>
+  	
+  	</xsl:choose>
+  </xsl:template> -->
   
 <!--  en masse styling -->
 <xsl:template  name="indsaet_definitioner">		
@@ -738,6 +787,21 @@
 
        d="m 78.38406,115.8439 a 7.216279,6.4198437 0 0 1 -3.345722,-8.57374 7.216279,6.4198437 0 0 1 9.63493,-2.98275 7.216279,6.4198437 0 0 1 3.359845,8.56937 7.216279,6.4198437 0 0 1 -9.630005,2.99531 l 3.130316,-5.78439 z" />
   </g>
+  
+  
+      <marker
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Mend"
+       style="overflow:visible;"
+       >
+      <path
+         id="path846"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 5.77,0.0 L -2.88,5.0 M -2.88,-5.0 L 5.77,0.0 "
+         transform="scale(1.6) rotate(0) translate(-5.77,0)" />
+    </marker>
   </defs>
   
   </xsl:template>
