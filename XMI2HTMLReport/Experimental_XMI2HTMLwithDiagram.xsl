@@ -59,11 +59,23 @@
 		<!-- <xsl:value-of select="//Plusprofil:*[@base_Package=current()/@xmi:id]" /> -->
 		<h2>Klasser:</h2>
 		
-		<!-- fang alle ikke-klassifikations-Klasse-elementer og send dem til en matchende template -->
+		<!-- fang alle ikke-klassifikations-Klasse-klasser og begreber og send dem til en matchende template -->
+		<!-- her skal tilpasses med ny profil -->
+		<!--<Plusprofil:RdfsResource base_Element="EAID_46CE169A_172A_45f1_A656_376F0A025DDC"/> -->
+	
 		<xsl:for-each select="//Plusprofil:OwlClass[not(@subClassOf='http://www.w3.org/2004/02/skos/core#Concept')]">
-			<xsl:apply-templates select="//packagedElement[@xmi:id=current()/@base_Class]" />
-		</xsl:for-each>
+			<xsl:apply-templates select="//packagedElement[@xmi:id=current()/@base_Class]" >
+				 <xsl:with-param name="printProperties" select = "'true'" />
+			</xsl:apply-templates>
+		</xsl:for-each>		
 		
+		<xsl:for-each select="//Plusprofil:RdfsResource[not(@subClassOf='http://www.w3.org/2004/02/skos/core#Concept')]">
+			<xsl:apply-templates select="//packagedElement[@xmi:id=current()/@base_Element]" >
+			 <xsl:with-param name="printProperties" select = "'false'" />
+			</xsl:apply-templates>
+		</xsl:for-each>
+
+
 		<h2>Klassifikationer:</h2>
 		<!-- fang alle klassifikations-Klasse-elementer  -->
 		<xsl:for-each select="//Plusprofil:OwlClass[@subClassOf='http://www.w3.org/2004/02/skos/core#Concept']">
@@ -86,6 +98,7 @@
 	 <xsl:template match="packagedElement[@xmi:type='uml:Class']">
 			<!-- Lav anker som diagrammet kan ramme ned i rapporten -->
 		<!-- Nogle elementer har # i id andre har ikke - derfor må vi finde teksten efter '#' eller sidste '/' -->
+		 <xsl:param name = "printProperties" />
 		<xsl:variable name="elementRef" select="//Plusprofil:OwlClass[@base_Class=current()/@xmi:id]/@URI"/> 
  		<xsl:variable name="ankertext"> 
 			<xsl:choose>
@@ -117,10 +130,14 @@
 			</div>
 			<!-- find det entry i profileringsblokken, som matcher klassens (current node) id  og send til tabelbygger templaten-->		
 			<xsl:apply-templates select="//Plusprofil:OwlClass[@base_Class=current()/@xmi:id]" /> 
-			
-			<!--  hvis klassen har properties så:-->
-			<xsl:if test="count(ownedAttribute) > 0">
+			<xsl:apply-templates select="//Plusprofil:RdfsResource[@base_Element=current()/@xmi:id]" /> 
+			<!-- noget galt her 
+			 	<xsl:if test="($value!='') and ($value!='$ea_notes=')">
+				 -->
+			<!--  hvis klassen har properties og ikke er et begreb, så:-->
+			<xsl:if test="count(ownedAttribute) > 0 and $printProperties='true'">
 				<!-- skriv en mørkegrå kasse -->
+				
 				<div class="egenskaber" style="background-color: #ccc;border: 1px solid #ccc;border-radius: 10px;padding: .5em 1em;margin: .5em;">
 					<h3>Egenskaber:</h3>
 					<!-- hvis der er attributter -->
@@ -520,7 +537,7 @@
 							<xsl:value-of select="substring-after($elementRef,'#')"/>
 						</xsl:when>
 						<xsl:otherwise>
-							<!-- vi bruger en rekurserende template - nederst i dokumentet - til at kante os ind på den sidste skrøstreg -->
+							<!-- vi bruger en rekurserende template - nederst i dokumentet - til at kante os ind på den sidste skråstreg -->
 							<xsl:call-template name="substring-after-last">
 								<xsl:with-param name="string" select="$elementRef" />
 								<xsl:with-param name="delimiter" select="'/'" />
@@ -528,13 +545,17 @@
 						</xsl:otherwise>
 					</xsl:choose>
 				</xsl:variable> 
+			
+				
+				<!-- find en god farve til kasserne -->
 				<xsl:variable name="fyldfarve"> 
 				<xsl:choose>
 					<xsl:when test="contains(//Plusprofil:OwlClass[@base_Class=current()/@modelElement]/@subClassOf,'http://www.w3.org/2004/02/skos/core#Concept')">
 								<xsl:value-of select="'#a5681aff'"/>
 					</xsl:when>
 					<xsl:otherwise>
-							<xsl:value-of  select="'#b7c4c8'"/>
+							<xsl:value-of  select="'#ca6f69'"/>
+					<!--		<xsl:value-of  select="'#b7c4c8'"/> -->
 					</xsl:otherwise>
 				</xsl:choose>
 				</xsl:variable>
@@ -554,9 +575,12 @@
 					</a>
 					<!-- klassens tværstreg -  -->
 					<line x1="5" y1="25" x2="{./bounds/@width -5}" y2="25" stroke="darkgrey" />
-					<!-- klassenavn - elegant placeret i midten vha text-anchor og klassebredden delt med to. Fontstørrelse altid problematisk -->
-					<text text-anchor="middle"  x="{./bounds/@width div 2}" y="18" font-size="9.5" font-weight="bold" id="text4261" fill="black"  style="font-weight:bold;stroke:none">
-						<!-- gymnastik som kan fjernt prefix fra klassenavn - hvis det findes --> 
+					<!-- klassenavn - elegant placeret i midten og med wrapped text vha et foreignObject, som indlejrer en html div - horisontal og vertikal centrering vha flexbox-->
+					<foreignObject x="5" y="4" height="15" width="{./bounds/@width -5}">
+						<div style="display:flex;   align-items: center;   justify-content: center;height:100%;width:95%">
+						<div style="font-size:9.5;font-weight:bold;stroke:none;text-align: center;    line-height: 10px;">
+			
+						<!-- gymnastik som kan fjerne et prefix fra klassenavn - hvis det findes --> 
 						<xsl:variable name="klassenavn" select="/xmi:XMI/uml:Model/packagedElement/packagedElement[@xmi:id=current()/@modelElement]/@name"/>
 						<!-- <xsl:choose> 
 							<xsl:when test="(contains($klassenavn, ':'))"><xsl:value-of select="substring-after($klassenavn,':')" /></xsl:when>
@@ -564,7 +588,8 @@
 								<xsl:value-of select="$klassenavn" />
 							<!-- </xsl:otherwise>
 						</xsl:choose>  -->
-					</text>
+						</div></div>
+					</foreignObject>
 					<!-- skriv attributter -->
 					<text transform="translate(11 26)">
 						<xsl:for-each select="/xmi:XMI/uml:Model/packagedElement/packagedElement[@xmi:id=current()/@modelElement]/ownedAttribute[not(@association)]">
@@ -597,10 +622,29 @@
 						<xsl:with-param name="PdString" select="'M '"/>
 					</xsl:call-template>
 				</xsl:variable>
-				<!-- tegn pilen -->
-				<path fill="none" stroke="black" d="{$dString}" style="marker-end:url(#Arrow2Mend)"/>
+		<!-- tegn pilen -->
+				<!--vælg pilespids -->
+				<xsl:choose>
+					<xsl:when test="(//*[@xmi:id=current()/@modelElement]/@xmi:type='uml:Generalization')">
+									<path fill="none" stroke="black" d="{$dString}" style="marker-end:url(#EmptyTriangleInL)"/>
+					</xsl:when>
+					<xsl:when test="(//*[@association=current()/@modelElement]/@aggregation='shared')">
+									<path fill="none" stroke="black" d="{$dString}" style="marker-end:url(#EmptyDiamondLend)"/>
+					</xsl:when>
+					<xsl:when test="(//*[@association=current()/@modelElement]/@aggregation='composite')">
+									<path fill="none" stroke="black" d="{$dString}" style="marker-end:url(#DiamondL)"/>
+					</xsl:when>
+					<xsl:otherwise>
+								<path fill="none" stroke="black" d="{$dString}" style="marker-end:url(#Arrow2Mend)"/>
 					
-				
+					</xsl:otherwise>
+				</xsl:choose>
+
+		
+					<!-- associationsnavne -->
+					<xsl:for-each select="./ownedElement[@xmi:type='umldi:UMLNameLabel']">
+						<text x="{./bounds/@x - 2}" y="{./bounds/@y + 8}" font-size="9" ><xsl:value-of select="./@text"/></text>
+					</xsl:for-each>						
 					<!-- associationsender -->
 					<xsl:for-each select="./ownedElement[@xmi:type='umldi:UMLAssociationEndLabel']">
 						<text x="{./bounds/@x - 2}" y="{./bounds/@y + 8}" font-size="9" ><xsl:value-of select="./@text"/></text>
@@ -720,7 +764,7 @@
       <feGaussianBlur id="feGaussianBlur4739" result="result11" stdDeviation="5.7"></feGaussianBlur>
       <feDiffuseLighting id="feDiffuseLighting4741" surfaceScale="5" result="result3" diffuseConstant="2" in="result1">
 <!-- Her giver ændring af elevation blødere kanter -->
-        <feDistantLight id="feDistantLight4743" elevation="50" azimuth="225"></feDistantLight>
+        <feDistantLight id="feDistantLight4743" elevation="40" azimuth="225"></feDistantLight>
       </feDiffuseLighting>
       <feBlend in2="fbSourceGraphic" id="feBlend4745" result="result7" mode="multiply" in="result3"></feBlend>
       <feComposite in2="fbSourceGraphicAlpha" id="feComposite4747" in="result7" operator="in" result="result91"></feComposite>
@@ -788,7 +832,7 @@
        d="m 78.38406,115.8439 a 7.216279,6.4198437 0 0 1 -3.345722,-8.57374 7.216279,6.4198437 0 0 1 9.63493,-2.98275 7.216279,6.4198437 0 0 1 3.359845,8.56937 7.216279,6.4198437 0 0 1 -9.630005,2.99531 l 3.130316,-5.78439 z" />
   </g>
   
-  
+  <!-- pilespidser -->
       <marker
        orient="auto"
        refY="0.0"
@@ -801,6 +845,42 @@
          style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
          d="M 5.77,0.0 L -2.88,5.0 M -2.88,-5.0 L 5.77,0.0 "
          transform="scale(1.6) rotate(0) translate(-5.77,0)" />
+    </marker>
+		<marker
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="EmptyTriangleInL"
+       style="overflow:visible">
+       <path
+         id="path968"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;fill:#ffffff;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(-1.2,-1) rotate(180) translate(-6,0)" />
+    </marker>
+		    <marker
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="EmptyDiamondLend"
+       style="overflow:visible">
+      <path
+         id="path941"
+         d="M 0,-7.0710768 L -7.0710894,0 L 0,7.0710589 L 7.0710462,0 L 0,-7.0710768 z "
+         style="fill-rule:evenodd;fill:#ffffff;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(1.2,0.8) translate(-7,0)" />
+    </marker>
+		 <marker
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="DiamondL"
+       style="overflow:visible">
+      <path
+         id="path896"
+         d="M 0,-7.0710768 L -7.0710894,0 L 0,7.0710589 L 7.0710462,0 L 0,-7.0710768 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(1.2,0.8) translate(-7,0)" />
     </marker>
   </defs>
   
