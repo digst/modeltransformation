@@ -22,7 +22,6 @@ xmlns:voaf="http://purl.org/vocommons/voaf#"
 xmlns:cc="http://www.sparxsystems.com/profiles/GML/1.0"
 xmlns:foaf="http://xmlns.com/foaf/0.1/"  
 xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
-xmlns:plus="https://data.gov.dk/model/core/plus#" 
 xmlns:mdl="https://data.gov.dk/model/core/modelling#"
 xmlns:skos="http://www.w3.org/2004/02/skos/core#" 
 xmlns:dadk="http://data.gov.dk/model/vocabular/modelcat#"  >
@@ -60,9 +59,9 @@ XSL STYLESHEET FOR TRANFORMING RDF/XML TO HTML
 
 
 <!-- Show model meta data of application profiles-->
-<xsl:for-each select="//rdf:type[@rdf:resource='https://data.gov.dk/model/core/plus#ApplicationProfile' ]/..|
-					  //rdf:type[@rdf:resource='https://data.gov.dk/model/core/plus#Vocabulary' ]/..|
-					  //rdf:type[@rdf:resource='https://data.gov.dk/model/core/plus#ConceptModel' ]/..|
+<xsl:for-each select="//rdf:type[@rdf:resource='https://data.gov.dk/model/core/modelling#ApplicationProfile' ]/..|
+					  //rdf:type[@rdf:resource='https://data.gov.dk/model/core/modelling#Vocabulary' ]/..|
+					  //rdf:type[@rdf:resource='https://data.gov.dk/model/core/modelling#ConceptModel' ]/..|
 					  //rdf:type[@rdf:resource='http://www.w3.org/2004/02/skos/core#ConceptScheme' ]/..|
 					  voaf:Vocabulary|
 					  owl:Ontology">
@@ -179,11 +178,11 @@ Download serialisering: <a href="">RDF/XML</a>&#160; <a href="">TTL</a>&#160; <a
 		<tr>
 		<td><xsl:call-template name="resourcelabel"/></td>
 		<td><xsl:for-each select="skos:altLabel[@xml:lang='da']"><xsl:value-of select="."/>;</xsl:for-each></td>
-		<td><xsl:for-each select="plus:deprecatedLabel[@xml:lang='da']"><xsl:value-of select="."/>;</xsl:for-each></td>			
+		<td><xsl:for-each select="mdl:deprecatedLabel[@xml:lang='da']"><xsl:value-of select="."/>;</xsl:for-each></td>			
 		<td><xsl:value-of select="skos:definition[@xml:lang='da']|mdl:applicationNote/skos:definition[@xml:lang='da']"/></td>
 		<td><xsl:for-each select="skos:example[@xml:lang='da']"><xsl:value-of select="."/>;</xsl:for-each></td>
 		<td><xsl:for-each select="rdfs:comment[@xml:lang='da']"><xsl:value-of select="."/>;</xsl:for-each></td>
-		<td><xsl:for-each select="plus:legalSource"><xsl:value-of select="."/>;</xsl:for-each></td>
+		<td><xsl:for-each select="cv:hasLegalResource"><xsl:value-of select="."/>;</xsl:for-each></td>
 		<td><xsl:for-each select="dct:source"><xsl:value-of select="."/>;</xsl:for-each></td>
 		<td></td>
 		</tr>

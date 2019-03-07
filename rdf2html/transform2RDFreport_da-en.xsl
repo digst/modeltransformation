@@ -55,11 +55,11 @@ XSL STYLESHEET FOR TRANFORMING RDF/XML TO HTML
 <div class="status">
 	<div><span>
 	   <xsl:choose>
-		 <xsl:when test="//rdf:type[@rdf:resource='https://data.gov.dk/model/core/plus#ApplicationProfile' ]/..">	
+		 <xsl:when test="//rdf:type[@rdf:resource='https://data.gov.dk/model/core/modelling#ApplicationProfile' ]/..">	
 		Application Profile </xsl:when>	
-		 <xsl:when test="//rdf:type[@rdf:resource='https://data.gov.dk/model/core/plus#Vocabulary' ]/..">	
+		 <xsl:when test="//rdf:type[@rdf:resource='https://data.gov.dk/model/core/modelling#Vocabulary' ]/..">	
 		Vocabulary </xsl:when>
-		 <xsl:when test="//rdf:type[@rdf:resource='https://data.gov.dk/model/core/plus#ConceptModel' ]/..">	
+		 <xsl:when test="//rdf:type[@rdf:resource='https://data.gov.dk/model/core/modelling#ConceptModel' ]/..">	
 		Concept Model </xsl:when>	
 		 <xsl:when test="//rdf:type[@rdf:resource='http://www.w3.org/2004/02/skos/core#ConceptScheme' ]/..">	
 		Classification	</xsl:when>	
@@ -74,9 +74,9 @@ XSL STYLESHEET FOR TRANFORMING RDF/XML TO HTML
 
 
 <!-- Show model metadata -->
-<xsl:for-each select="//rdf:type[@rdf:resource='https://data.gov.dk/model/core/plus#ApplicationProfile' ]/..|
-					  //rdf:type[@rdf:resource='https://data.gov.dk/model/core/plus#Vocabulary' ]/..|
-					  //rdf:type[@rdf:resource='https://data.gov.dk/model/core/plus#ConceptModel' ]/..|
+<xsl:for-each select="//rdf:type[@rdf:resource='https://data.gov.dk/model/core/modelling#ApplicationProfile' ]/..|
+					  //rdf:type[@rdf:resource='https://data.gov.dk/model/core/modelling#Vocabulary' ]/..|
+					  //rdf:type[@rdf:resource='https://data.gov.dk/model/core/modelling#ConceptModel' ]/..|
 					  //rdf:type[@rdf:resource='http://www.w3.org/2004/02/skos/core#ConceptScheme' ]/..|
 					  voaf:Vocabulary|
 					  owl:Ontology">
@@ -344,8 +344,8 @@ XSL STYLESHEET FOR TRANFORMING RDF/XML TO HTML
 			  <xsl:apply-templates select="rdfs:comment"/>
 
 			<!--Show legal source -->	
-							<xsl:for-each select="mdl:legalSource"><xsl:if test=". != ''"> 
-			    	  	  	<dt>Kilde:</dt><dd>  <xsl:value-of select="."/></dd></xsl:if>
+							<xsl:for-each select="cv:hasLegalResource"><xsl:if test=". != ''"> 
+			    	  	  	<dt>Juridisk kilde:</dt><dd>  <xsl:value-of select="."/></dd></xsl:if>
 			    	  	 	</xsl:for-each>			    	 
 	
 			<!--Show source  -->								
