@@ -648,8 +648,8 @@
 	 	<xsl:if test="($value!='') and ($value!='$ea_notes=')">
 	 	
 	 	<tr>
-				<td style="border: 1px solid #6f6f6f;"><xsl:value-of select="$text" /></td>
-				<td style="border: 1px solid #6f6f6f;"><xsl:value-of select="$value" /></td>
+				<td style="border: 1px solid #bbb;"><xsl:value-of select="$text" /></td>
+				<td style="border: 1px solid #bbb;"><xsl:value-of select="$value" /></td>
 			</tr>
 		</xsl:if>
 	</xsl:template>
