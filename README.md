@@ -4,5 +4,5 @@ Artefacts useful for transforming models from one modelling language to another 
 
 Artefact | Description
 ------------ | -------------
-[XMI2HTMLReport](https://github.com/digst/modeltransformation/tree/master/XMI2HTMLReport)  | Transformation som kan omdanne XMI/XML til HTML-modelrapporter
+[XMI2HTMLReport](https://github.com/digst/modeltransformation/tree/master/XMI2HTMLReport)  | Trannsforming XMI/XML into HTML-modelreports - also from inside Sparx EA 
 [rdf2html](https://github.com/digst/modeltransformation/tree/master/rdf2html)  | Transformation som kan omdanne RDF/XML til HTML-modelrapporter
