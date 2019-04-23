@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 
-XSLT gennemløber nodesets pg sender udvalgte sub-sets til uskrift i matchende templates
+XSLT gennemløber nodesets og sender udvalgte sub-sets til uskrift i matchende templates
 Diagrammet viser hvilke nodes, der sendes videre til hvilke templates - disse angiver omtrentligt linjenummer
                            l.92                                 l.116
 +~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~+          +~~~~~~~~~~~~~~~~~~~~~~~~~+
