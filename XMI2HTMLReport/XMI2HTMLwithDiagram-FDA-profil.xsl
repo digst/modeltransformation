@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 
-XSLT gennemløber nodesets og sender udvalgte sub-sets til uskrift i matchende templates
+XSLT gennemløber nodesets pg sender udvalgte sub-sets til uskrift i matchende templates
 Diagrammet viser hvilke nodes, der sendes videre til hvilke templates - disse angiver omtrentligt linjenummer
                            l.92                                 l.116
 +~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~+          +~~~~~~~~~~~~~~~~~~~~~~~~~+
 |  MATCH ALT                     | Pakke    |  PAKKE ITERATOR         +<~~~+
 |  Skriv dokument start og slut  |~~~~~~~~~>+  finder underpakker     |    |Pakke
 |  html, head, body              |          |                         |~~~~+
-+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~+          +~~~~~~~~~~~~~~~~~~~~~~~~~+
-      | Pakke
-      v                   l.126                          l.728                     l.1015
++~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~+ Pakke    +~~~+~~~~~~~~~~~~~~~~~~~~~+
+      | Pakke       +~~~~~~~~~~~~~~~~~~~~~~~~~~~+
+      v             v     l.126                          l.728                     l.1015
 +~~~~~+~~~~~~~~~~~~~~~~~~~~~~~~~~+          +~~~~~~~~~~~~~~~~~+ URI     +~~~~~~~~~~~~~~~~~+
 |   PAKKEUDSKIVER                | Diagram  |  DIAGRAMTEGNER  |~~~~~~~~>+SUBSTRING~AFTER  |
 |  Skriv pakkens indhold         |~~~~~~~~~>+  Tegn SVGdiagram|         |  Find lokalident|
