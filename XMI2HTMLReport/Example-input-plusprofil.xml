@@ -702,7 +702,7 @@
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000003_59D5_4fe0_8FA2_6B633197B798" x="370" y="371"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_D37A2F5C_59D5_4fe0_B9B6_5F21259CC45B" source="EAID_2DC32D32_1178_487c_A25C_E6A26E7F62F0" target="EAID_37E38F8F_58BF_4d65_A5DF_C1CCDD861D73" modelElement="EAID_82593AEB_27E1_40b4_B9B6_5F21259CC45B">
-				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_59D5_4fe0_B9B6_5F21259CC45B" text="virksomhedSekundærIdentifikationstype" modelElement="EAID_dst593AEB_27E1_40b4_B9B6_5F21259CC45B">
+				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_59D5_4fe0_B9B6_5F21259CC45B" text="virksomhedSekundÃ¦rIdentifikationstype" modelElement="EAID_dst593AEB_27E1_40b4_B9B6_5F21259CC45B">
 					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTEL000000_59D5_4fe0_B9B6_5F21259CC45B" x="163" y="292" width="186" height="13"/>
 				</ownedElement>
 				<ownedElement xmi:type="umldi:UMLMultiplicityLabel" xmi:id="EAID_TML000000_59D5_4fe0_B9B6_5F21259CC45B" text="1" modelElement="EAID_dst593AEB_27E1_40b4_B9B6_5F21259CC45B">
@@ -880,7 +880,7 @@
 				<bounds xmi:type="dc:bounds" xmi:id="EAID_DB000000_1E56_4e71_B195_AAE91FA48897" x="543" y="107" width="127" height="45"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_DCE275FF_1E56_4e71_8ED7_6E3E07A6796B" source="EAID_2DC32D32_1178_487c_A25C_E6A26E7F62F0" target="EAID_511BB9A5_37FC_4e50_AC57_B825D24FA0BC" modelElement="EAID_F0FF2F4B_6921_4b87_8ED7_6E3E07A6796B">
-				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_1E56_4e71_8ED7_6E3E07A6796B" text="schema:owns&#xA;«objectProperty»" modelElement="EAID_dstFF2F4B_6921_4b87_8ED7_6E3E07A6796B">
+				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_1E56_4e71_8ED7_6E3E07A6796B" text="schema:owns&#xA;Â«objectPropertyÂ»" modelElement="EAID_dstFF2F4B_6921_4b87_8ED7_6E3E07A6796B">
 					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTEL000000_1E56_4e71_8ED7_6E3E07A6796B" x="138" y="335" width="81" height="26"/>
 				</ownedElement>
 				<ownedElement xmi:type="umldi:UMLMultiplicityLabel" xmi:id="EAID_TML000000_1E56_4e71_8ED7_6E3E07A6796B" text="0..*" modelElement="EAID_dstFF2F4B_6921_4b87_8ED7_6E3E07A6796B">
@@ -890,7 +890,7 @@
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000001_1E56_4e71_8ED7_6E3E07A6796B" x="211" y="372"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_DCE275FF_1E56_4e71_864D_8FDC9C2B7831" source="EAID_511BB9A5_37FC_4e50_AC57_B825D24FA0BC" target="EAID_5165BA46_0303_47bf_B35B_2F0832AE94A9" modelElement="EAID_55BDDC32_8A4C_4c3e_864D_8FDC9C2B7831">
-				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_1E56_4e71_864D_8FDC9C2B7831" text="nkr:accountType&#xA;«ObjectProperty»" modelElement="EAID_dstBDDC32_8A4C_4c3e_864D_8FDC9C2B7831">
+				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_1E56_4e71_864D_8FDC9C2B7831" text="nkr:accountType&#xA;Â«ObjectPropertyÂ»" modelElement="EAID_dstBDDC32_8A4C_4c3e_864D_8FDC9C2B7831">
 					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTEL000000_1E56_4e71_864D_8FDC9C2B7831" x="391" y="465" width="82" height="26"/>
 				</ownedElement>
 				<ownedElement xmi:type="umldi:UMLMultiplicityLabel" xmi:id="EAID_TML000000_1E56_4e71_864D_8FDC9C2B7831" text="1" modelElement="EAID_dstBDDC32_8A4C_4c3e_864D_8FDC9C2B7831">
@@ -900,7 +900,7 @@
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000001_1E56_4e71_864D_8FDC9C2B7831" x="456" y="498"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_DCE275FF_1E56_4e71_B69A_DFB89F43EA81" source="EAID_39F1E05A_A299_4e64_9688_8ED39363643E" target="EAID_5165BA46_0303_47bf_B35B_2F0832AE94A9" modelElement="EAID_AB5F4B97_6C04_4ae1_B69A_DFB89F43EA81">
-				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_1E56_4e71_B69A_DFB89F43EA81" text="rdf:type&#xA;«ObjectProperty»" modelElement="EAID_dst5F4B97_6C04_4ae1_B69A_DFB89F43EA81">
+				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_1E56_4e71_B69A_DFB89F43EA81" text="rdf:type&#xA;Â«ObjectPropertyÂ»" modelElement="EAID_dst5F4B97_6C04_4ae1_B69A_DFB89F43EA81">
 					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTEL000000_1E56_4e71_B69A_DFB89F43EA81" x="635" y="467" width="82" height="26"/>
 				</ownedElement>
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000000_1E56_4e71_B69A_DFB89F43EA81" x="734" y="462"/>
@@ -909,7 +909,7 @@
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000003_1E56_4e71_B69A_DFB89F43EA81" x="578" y="499"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_DCE275FF_1E56_4e71_9F67_F4D4EA1745B2" source="EAID_B01C94BE_9C66_4469_87A7_0619A3353A94" target="EAID_5165BA46_0303_47bf_B35B_2F0832AE94A9" modelElement="EAID_28F69D9D_076B_48eb_9F67_F4D4EA1745B2">
-				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_1E56_4e71_9F67_F4D4EA1745B2" text="rdf:type&#xA;«ObjectProperty»" modelElement="EAID_dstF69D9D_076B_48eb_9F67_F4D4EA1745B2">
+				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_1E56_4e71_9F67_F4D4EA1745B2" text="rdf:type&#xA;Â«ObjectPropertyÂ»" modelElement="EAID_dstF69D9D_076B_48eb_9F67_F4D4EA1745B2">
 					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTEL000000_1E56_4e71_9F67_F4D4EA1745B2" x="630" y="538" width="82" height="26"/>
 				</ownedElement>
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000000_1E56_4e71_9F67_F4D4EA1745B2" x="734" y="534"/>
@@ -918,7 +918,7 @@
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000003_1E56_4e71_9F67_F4D4EA1745B2" x="578" y="499"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_DCE275FF_1E56_4e71_8977_B11DCD053F7C" source="EAID_511BB9A5_37FC_4e50_AC57_B825D24FA0BC" target="EAID_C50BD86E_713A_4bf3_9FB9_76C1AC7CBA9F" modelElement="EAID_AD9DB465_2700_49e9_8977_B11DCD053F7C">
-				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_1E56_4e71_8977_B11DCD053F7C" text="nkr:financialInstitutionType&#xA;«ObjectProperty»" modelElement="EAID_dst9DB465_2700_49e9_8977_B11DCD053F7C">
+				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_1E56_4e71_8977_B11DCD053F7C" text="nkr:financialInstitutionType&#xA;Â«ObjectPropertyÂ»" modelElement="EAID_dst9DB465_2700_49e9_8977_B11DCD053F7C">
 					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTEL000000_1E56_4e71_8977_B11DCD053F7C" x="407" y="368" width="127" height="26"/>
 				</ownedElement>
 				<ownedElement xmi:type="umldi:UMLMultiplicityLabel" xmi:id="EAID_TML000000_1E56_4e71_8977_B11DCD053F7C" text="1" modelElement="EAID_dst9DB465_2700_49e9_8977_B11DCD053F7C">
@@ -928,7 +928,7 @@
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000001_1E56_4e71_8977_B11DCD053F7C" x="511" y="399"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_DCE275FF_1E56_4e71_B0D6_97D73E48BE5B" source="EAID_AEA68BD2_D973_4b77_A3B8_258308C1FBBD" target="EAID_C50BD86E_713A_4bf3_9FB9_76C1AC7CBA9F" modelElement="EAID_8430F55D_9726_4aa5_B0D6_97D73E48BE5B">
-				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_1E56_4e71_B0D6_97D73E48BE5B" text="rdf:type&#xA;«ObjectProperty»" modelElement="EAID_dst30F55D_9726_4aa5_B0D6_97D73E48BE5B">
+				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_1E56_4e71_B0D6_97D73E48BE5B" text="rdf:type&#xA;Â«ObjectPropertyÂ»" modelElement="EAID_dst30F55D_9726_4aa5_B0D6_97D73E48BE5B">
 					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTEL000000_1E56_4e71_B0D6_97D73E48BE5B" x="744" y="233" width="82" height="26"/>
 				</ownedElement>
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000000_1E56_4e71_B0D6_97D73E48BE5B" x="670" y="247"/>
@@ -937,7 +937,7 @@
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000003_1E56_4e71_B0D6_97D73E48BE5B" x="670" y="394"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_DCE275FF_1E56_4e71_A1A5_9F47ECEE933C" source="EAID_79D67F3B_5898_4f46_B159_A8BEA86D30B4" target="EAID_C50BD86E_713A_4bf3_9FB9_76C1AC7CBA9F" modelElement="EAID_6DCBC3DC_30B3_45f6_A1A5_9F47ECEE933C">
-				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_1E56_4e71_A1A5_9F47ECEE933C" text="rdf:type&#xA;«ObjectProperty»" modelElement="EAID_dstCBC3DC_30B3_45f6_A1A5_9F47ECEE933C">
+				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_1E56_4e71_A1A5_9F47ECEE933C" text="rdf:type&#xA;Â«ObjectPropertyÂ»" modelElement="EAID_dstCBC3DC_30B3_45f6_A1A5_9F47ECEE933C">
 					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTEL000000_1E56_4e71_A1A5_9F47ECEE933C" x="746" y="55" width="82" height="26"/>
 				</ownedElement>
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000000_1E56_4e71_A1A5_9F47ECEE933C" x="670" y="67"/>
@@ -946,7 +946,7 @@
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000003_1E56_4e71_A1A5_9F47ECEE933C" x="670" y="394"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_DCE275FF_1E56_4e71_B385_66669627261D" source="EAID_A790AFFA_57A0_4252_B468_531C40BCE497" target="EAID_C50BD86E_713A_4bf3_9FB9_76C1AC7CBA9F" modelElement="EAID_91C80BE3_7EE2_49ba_B385_66669627261D">
-				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_1E56_4e71_B385_66669627261D" text="rdf:type&#xA;«ObjectProperty»" modelElement="EAID_dstC80BE3_7EE2_49ba_B385_66669627261D">
+				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_1E56_4e71_B385_66669627261D" text="rdf:type&#xA;Â«ObjectPropertyÂ»" modelElement="EAID_dstC80BE3_7EE2_49ba_B385_66669627261D">
 					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTEL000000_1E56_4e71_B385_66669627261D" x="744" y="176" width="82" height="26"/>
 				</ownedElement>
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000000_1E56_4e71_B385_66669627261D" x="670" y="187"/>
@@ -955,7 +955,7 @@
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000003_1E56_4e71_B385_66669627261D" x="670" y="394"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_DCE275FF_1E56_4e71_BEC5_F07A6AAD14FB" source="EAID_D131C550_A498_4ce2_B152_0EB6351BB728" target="EAID_C50BD86E_713A_4bf3_9FB9_76C1AC7CBA9F" modelElement="EAID_B13E4D82_AF0A_446e_BEC5_F07A6AAD14FB">
-				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_1E56_4e71_BEC5_F07A6AAD14FB" text="rdf:type&#xA;«ObjectProperty»" modelElement="EAID_dst3E4D82_AF0A_446e_BEC5_F07A6AAD14FB">
+				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_1E56_4e71_BEC5_F07A6AAD14FB" text="rdf:type&#xA;Â«ObjectPropertyÂ»" modelElement="EAID_dst3E4D82_AF0A_446e_BEC5_F07A6AAD14FB">
 					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTEL000000_1E56_4e71_BEC5_F07A6AAD14FB" x="744" y="293" width="82" height="26"/>
 				</ownedElement>
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000000_1E56_4e71_BEC5_F07A6AAD14FB" x="670" y="307"/>
@@ -964,7 +964,7 @@
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000003_1E56_4e71_BEC5_F07A6AAD14FB" x="670" y="394"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_DCE275FF_1E56_4e71_BCA7_71EABB80BF03" source="EAID_843DF676_9792_4fc1_B195_AAE91FA48897" target="EAID_C50BD86E_713A_4bf3_9FB9_76C1AC7CBA9F" modelElement="EAID_A08D5191_AD0A_4e93_BCA7_71EABB80BF03">
-				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_1E56_4e71_BCA7_71EABB80BF03" text="rdf:type&#xA;«ObjectProperty»" modelElement="EAID_dst8D5191_AD0A_4e93_BCA7_71EABB80BF03">
+				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_1E56_4e71_BCA7_71EABB80BF03" text="rdf:type&#xA;Â«ObjectPropertyÂ»" modelElement="EAID_dst8D5191_AD0A_4e93_BCA7_71EABB80BF03">
 					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTEL000000_1E56_4e71_BCA7_71EABB80BF03" x="745" y="111" width="82" height="26"/>
 				</ownedElement>
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000000_1E56_4e71_BCA7_71EABB80BF03" x="670" y="127"/>
@@ -973,7 +973,7 @@
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000003_1E56_4e71_BCA7_71EABB80BF03" x="670" y="394"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_DCE275FF_1E56_4e71_B017_979F0F158BD8" source="EAID_2DC32D32_1178_487c_A25C_E6A26E7F62F0" target="EAID_C6135D07_B528_433d_96E4_A460AB79314E" modelElement="EAID_34B04AAF_D562_4da7_B017_979F0F158BD8">
-				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_1E56_4e71_B017_979F0F158BD8" text="nkr:accountOwnerType&#xA;«ObjectProperty»" modelElement="EAID_dstB04AAF_D562_4da7_B017_979F0F158BD8">
+				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_1E56_4e71_B017_979F0F158BD8" text="nkr:accountOwnerType&#xA;Â«ObjectPropertyÂ»" modelElement="EAID_dstB04AAF_D562_4da7_B017_979F0F158BD8">
 					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTEL000000_1E56_4e71_B017_979F0F158BD8" x="363" y="195" width="106" height="26"/>
 				</ownedElement>
 				<ownedElement xmi:type="umldi:UMLMultiplicityLabel" xmi:id="EAID_TML000000_1E56_4e71_B017_979F0F158BD8" text="1" modelElement="EAID_dstB04AAF_D562_4da7_B017_979F0F158BD8">
@@ -983,7 +983,7 @@
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000001_1E56_4e71_B017_979F0F158BD8" x="326" y="176"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_DCE275FF_1E56_4e71_B9D2_A69BDCC47513" source="EAID_F4F4786D_BDA7_47d6_97A2_67A32C9786BD" target="EAID_C6135D07_B528_433d_96E4_A460AB79314E" modelElement="EAID_086E05AC_EB23_4c49_B9D2_A69BDCC47513">
-				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_1E56_4e71_B9D2_A69BDCC47513" text="rdf:type&#xA;«ObjectProperty»" modelElement="EAID_dst6E05AC_EB23_4c49_B9D2_A69BDCC47513">
+				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_1E56_4e71_B9D2_A69BDCC47513" text="rdf:type&#xA;Â«ObjectPropertyÂ»" modelElement="EAID_dst6E05AC_EB23_4c49_B9D2_A69BDCC47513">
 					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTEL000000_1E56_4e71_B9D2_A69BDCC47513" x="286" y="76" width="82" height="26"/>
 				</ownedElement>
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000000_1E56_4e71_B9D2_A69BDCC47513" x="315" y="50"/>
@@ -992,7 +992,7 @@
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000003_1E56_4e71_B9D2_A69BDCC47513" x="370" y="121"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_DCE275FF_1E56_4e71_998F_7628CFC94756" source="EAID_DC47E533_1AD2_4ba2_B268_E3161A0B1E80" target="EAID_C6135D07_B528_433d_96E4_A460AB79314E" modelElement="EAID_1936E172_3A4C_4556_998F_7628CFC94756">
-				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_1E56_4e71_998F_7628CFC94756" text="rdf:type&#xA;«ObjectProperty»" modelElement="EAID_dst36E172_3A4C_4556_998F_7628CFC94756">
+				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_1E56_4e71_998F_7628CFC94756" text="rdf:type&#xA;Â«ObjectPropertyÂ»" modelElement="EAID_dst36E172_3A4C_4556_998F_7628CFC94756">
 					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTEL000000_1E56_4e71_998F_7628CFC94756" x="403" y="76" width="82" height="26"/>
 				</ownedElement>
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000000_1E56_4e71_998F_7628CFC94756" x="426" y="50"/>
@@ -1001,7 +1001,7 @@
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000003_1E56_4e71_998F_7628CFC94756" x="370" y="121"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_DCE275FF_1E56_4e71_B9B6_5F21259CC45B" source="EAID_2DC32D32_1178_487c_A25C_E6A26E7F62F0" target="EAID_37E38F8F_58BF_4d65_A5DF_C1CCDD861D73" modelElement="EAID_82593AEB_27E1_40b4_B9B6_5F21259CC45B">
-				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_1E56_4e71_B9B6_5F21259CC45B" text="nkr:businessSecondaryIdentificationType&#xA;«ObjectProperty»" modelElement="EAID_dst593AEB_27E1_40b4_B9B6_5F21259CC45B">
+				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_1E56_4e71_B9B6_5F21259CC45B" text="nkr:businessSecondaryIdentificationType&#xA;Â«ObjectPropertyÂ»" modelElement="EAID_dst593AEB_27E1_40b4_B9B6_5F21259CC45B">
 					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTEL000000_1E56_4e71_B9B6_5F21259CC45B" x="126" y="195" width="186" height="26"/>
 				</ownedElement>
 				<ownedElement xmi:type="umldi:UMLMultiplicityLabel" xmi:id="EAID_TML000000_1E56_4e71_B9B6_5F21259CC45B" text="1" modelElement="EAID_dst593AEB_27E1_40b4_B9B6_5F21259CC45B">
@@ -1011,7 +1011,7 @@
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000001_1E56_4e71_B9B6_5F21259CC45B" x="83" y="176"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_DCE275FF_1E56_4e71_A3B4_CCB8FD37DD00" source="EAID_C8504523_6CFC_46c4_AF7B_DE89B55F476F" target="EAID_37E38F8F_58BF_4d65_A5DF_C1CCDD861D73" modelElement="EAID_12AC354E_AECD_43b1_A3B4_CCB8FD37DD00">
-				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_1E56_4e71_A3B4_CCB8FD37DD00" text="rdf:type&#xA;«ObjectProperty»" modelElement="EAID_dstAC354E_AECD_43b1_A3B4_CCB8FD37DD00">
+				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_1E56_4e71_A3B4_CCB8FD37DD00" text="rdf:type&#xA;Â«ObjectPropertyÂ»" modelElement="EAID_dstAC354E_AECD_43b1_A3B4_CCB8FD37DD00">
 					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTEL000000_1E56_4e71_A3B4_CCB8FD37DD00" x="51" y="77" width="82" height="26"/>
 				</ownedElement>
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000000_1E56_4e71_A3B4_CCB8FD37DD00" x="79" y="51"/>
@@ -1020,7 +1020,7 @@
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000003_1E56_4e71_A3B4_CCB8FD37DD00" x="146" y="121"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_DCE275FF_1E56_4e71_981E_DCB2612B8445" source="EAID_FF9F9513_28BA_42a3_B803_B3F1BA47CCBA" target="EAID_37E38F8F_58BF_4d65_A5DF_C1CCDD861D73" modelElement="EAID_82476191_A9C5_4e62_981E_DCB2612B8445">
-				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_1E56_4e71_981E_DCB2612B8445" text="rdf:type&#xA;«ObjectProperty»" modelElement="EAID_dst476191_A9C5_4e62_981E_DCB2612B8445">
+				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_1E56_4e71_981E_DCB2612B8445" text="rdf:type&#xA;Â«ObjectPropertyÂ»" modelElement="EAID_dst476191_A9C5_4e62_981E_DCB2612B8445">
 					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTEL000000_1E56_4e71_981E_DCB2612B8445" x="177" y="77" width="82" height="26"/>
 				</ownedElement>
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000000_1E56_4e71_981E_DCB2612B8445" x="204" y="51"/>
@@ -1029,7 +1029,7 @@
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000003_1E56_4e71_981E_DCB2612B8445" x="146" y="121"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_DCE275FF_1E56_4e71_B9B6_08CCD3AFA6F7" source="EAID_511BB9A5_37FC_4e50_AC57_B825D24FA0BC" target="EAID_FFBF938D_45A4_4b08_B1BB_5675F4EA36BC" modelElement="EAID_0EF39C9E_1F59_4e98_B9B6_08CCD3AFA6F7">
-				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_1E56_4e71_B9B6_08CCD3AFA6F7" text="nkr:entryAddress&#xA;«ObjectProperty»" modelElement="EAID_dstF39C9E_1F59_4e98_B9B6_08CCD3AFA6F7">
+				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_1E56_4e71_B9B6_08CCD3AFA6F7" text="nkr:entryAddress&#xA;Â«ObjectPropertyÂ»" modelElement="EAID_dstF39C9E_1F59_4e98_B9B6_08CCD3AFA6F7">
 					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTEL000000_1E56_4e71_B9B6_08CCD3AFA6F7" x="149" y="551" width="82" height="26"/>
 				</ownedElement>
 				<ownedElement xmi:type="umldi:UMLMultiplicityLabel" xmi:id="EAID_TML000000_1E56_4e71_B9B6_08CCD3AFA6F7" text="0..2" modelElement="EAID_dstF39C9E_1F59_4e98_B9B6_08CCD3AFA6F7">
@@ -1039,7 +1039,7 @@
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000001_1E56_4e71_B9B6_08CCD3AFA6F7" x="213" y="588"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_DCE275FF_1E56_4e71_9992_08890C771EC5" source="EAID_FFBF938D_45A4_4b08_B1BB_5675F4EA36BC" target="EAID_2CE58CFB_62DA_4246_8D66_154EE7775CF6" modelElement="EAID_D557A65F_A34C_4765_9992_08890C771EC5">
-				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_1E56_4e71_9992_08890C771EC5" text="nkr:entryAddressType&#xA;«ObjectProperty»" modelElement="EAID_dst57A65F_A34C_4765_9992_08890C771EC5">
+				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_1E56_4e71_9992_08890C771EC5" text="nkr:entryAddressType&#xA;Â«ObjectPropertyÂ»" modelElement="EAID_dst57A65F_A34C_4765_9992_08890C771EC5">
 					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTEL000000_1E56_4e71_9992_08890C771EC5" x="368" y="611" width="98" height="26"/>
 				</ownedElement>
 				<ownedElement xmi:type="umldi:UMLMultiplicityLabel" xmi:id="EAID_TML000000_1E56_4e71_9992_08890C771EC5" text="1" modelElement="EAID_dst57A65F_A34C_4765_9992_08890C771EC5">
@@ -1049,7 +1049,7 @@
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000001_1E56_4e71_9992_08890C771EC5" x="456" y="648"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_DCE275FF_1E56_4e71_8DD2_95D401903FA3" source="EAID_953DD8F5_C351_4523_AF8A_97CD06B05A64" target="EAID_2CE58CFB_62DA_4246_8D66_154EE7775CF6" modelElement="EAID_78A3A135_490C_442d_8DD2_95D401903FA3">
-				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_1E56_4e71_8DD2_95D401903FA3" text="rdf:type&#xA;«ObjectProperty»" modelElement="EAID_dstA3A135_490C_442d_8DD2_95D401903FA3">
+				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_1E56_4e71_8DD2_95D401903FA3" text="rdf:type&#xA;Â«ObjectPropertyÂ»" modelElement="EAID_dstA3A135_490C_442d_8DD2_95D401903FA3">
 					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTEL000000_1E56_4e71_8DD2_95D401903FA3" x="601" y="690" width="82" height="26"/>
 				</ownedElement>
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000000_1E56_4e71_8DD2_95D401903FA3" x="682" y="689"/>
@@ -1058,7 +1058,7 @@
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000003_1E56_4e71_8DD2_95D401903FA3" x="590" y="645"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_DCE275FF_1E56_4e71_BF3C_795663537358" source="EAID_64FA440E_FCC3_45b6_AC92_5E4BB129A65D" target="EAID_2CE58CFB_62DA_4246_8D66_154EE7775CF6" modelElement="EAID_63ACB705_3764_402c_BF3C_795663537358">
-				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_1E56_4e71_BF3C_795663537358" text="rdf:type&#xA;«ObjectProperty»" modelElement="EAID_dstACB705_3764_402c_BF3C_795663537358">
+				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_1E56_4e71_BF3C_795663537358" text="rdf:type&#xA;Â«ObjectPropertyÂ»" modelElement="EAID_dstACB705_3764_402c_BF3C_795663537358">
 					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTEL000000_1E56_4e71_BF3C_795663537358" x="597" y="586" width="82" height="26"/>
 				</ownedElement>
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000000_1E56_4e71_BF3C_795663537358" x="682" y="619"/>
@@ -1082,7 +1082,7 @@
 			<element xmi:idref="EAPK_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC" xmi:type="uml:Package" name="NemKontoregisteret" scope="public">
 				<model package2="EAID_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC" package="EAPK_DCD03F7B_8B40_4bc0_8C79_58E5378D3656" tpos="3" ea_localid="1216" ea_eleType="package"/>
 				<properties isSpecification="false" sType="Package" nType="0" scope="public" stereotype="ApplicationProfile"/>
-				<project author="Per de Place Bjørn" version="1.0" phase="1.0" created="2018-08-30 15:43:04" modified="2018-09-18 15:38:57" complexity="1" status="Proposed"/>
+				<project author="Per de Place BjÃ¸rn" version="1.0" phase="1.0" created="2018-08-30 15:43:04" modified="2018-09-18 15:38:57" complexity="1" status="Proposed"/>
 				<code gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -1096,9 +1096,9 @@
 					<tag xmi:id="EAID_E971A201_37EA_d437_9120_66527BFF7EB4" name="modified" value="#NOTES#Default: Type=Date;&#xA;" modelElement="EAID_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC"/>
 					<tag xmi:id="EAID_4CEF338D_8696_a486_9C76_F9094EC84048" name="namespace" value="#NOTES#Default: http://data.gov.dk/model/...&#xA;Description: samling navne der identificeres af en URI&#xA;" modelElement="EAID_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC"/>
 					<tag xmi:id="EAID_51A6BB5B_5D04_f55d_BB18_3AF3038D6010" name="namespacePrefix" value="#NOTES#Description: forkortet betegnelse for et namespace&#xA;NOTE - Short label that is commonly used to refer to the dataset. Often utilised to identify the dataset in IRIs for specific items (or records). This may also stand in place of the base IRI of the dataset (e.g. see http://prefix.cc).&#xA;" modelElement="EAID_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC"/>
-					<tag xmi:id="EAID_6BED056E_5877_a258_95B2_936AD96A4081" name="publisher" value="#NOTES#Description: organisation der forpligter sig til at stå inde for modellens indhold og struktur&#xA;NOTE - 'an entity responsible for making the resource available.'&#xA;" modelElement="EAID_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC"/>
+					<tag xmi:id="EAID_6BED056E_5877_a258_95B2_936AD96A4081" name="publisher" value="#NOTES#Description: organisation der forpligter sig til at stÃ¥ inde for modellens indhold og struktur&#xA;NOTE - 'an entity responsible for making the resource available.'&#xA;" modelElement="EAID_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC"/>
 					<tag xmi:id="EAID_145BFAB1_025A_1e02_814B_B460C31AD3CD" name="source" modelElement="EAID_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC"/>
-					<tag xmi:id="EAID_086DDDF3_147C_c914_9D22_6607B2A85774" name="theme" value="#NOTES#Description: fagdomæne som forvaltes af en given forretning&#xA;NOTE - Udfaldsrum: tilstrækkelig præcis reference til den FællesOffentlige ReferenceModel (FORM). &#xA;'The main category of the dataset'&#xA;" modelElement="EAID_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC"/>
+					<tag xmi:id="EAID_086DDDF3_147C_c914_9D22_6607B2A85774" name="theme" value="#NOTES#Description: fagdomÃ¦ne som forvaltes af en given forretning&#xA;NOTE - Udfaldsrum: tilstrÃ¦kkelig prÃ¦cis reference til den FÃ¦llesOffentlige ReferenceModel (FORM). &#xA;'The main category of the dataset'&#xA;" modelElement="EAID_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC"/>
 					<tag xmi:id="EAID_AF754732_F45B_b9f4_8F0C_6DFCE047F60D" name="versionInfo" value="#NOTES#Description: unik identifikation af en specifik version&#xA;NOTE -The annotation property that provides version information for an ontology or another OWL construct&#xA;Udfaldsrum: opbygget med en major-version, minor-version og revision adskilt med punktum, f.eks.:1.0.0&#xA;" modelElement="EAID_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC"/>
 					<tag xmi:id="EAID_803985A2_1D46_111d_8812_783F0D56898B" name="wasDerivedFrom" value="#NOTES#Description: angivelse af model, som den aktuelle model er afledt af&#xA;" modelElement="EAID_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC"/>
 				</tags>
@@ -1112,7 +1112,7 @@
 			<element xmi:idref="EAID_FFBF938D_45A4_4b08_B1BB_5675F4EA36BC" xmi:type="uml:Class" name="locn:Address" scope="public">
 				<model package="EAPK_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC" tpos="0" ea_localid="14303" ea_eleType="element"/>
 				<properties isSpecification="false" sType="Class" nType="0" alias="Adresse" scope="public" stereotype="OwlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="Per de Place Bjørn" version="1.0" phase="1.0" created="2018-09-06 10:08:11" modified="2018-09-11 13:56:58" complexity="1" status="Proposed"/>
+				<project author="Per de Place BjÃ¸rn" version="1.0" phase="1.0" created="2018-09-06 10:08:11" modified="2018-09-11 13:56:58" complexity="1" status="Proposed"/>
 				<code gentype="XSD"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -1320,7 +1320,7 @@
 			<element xmi:idref="EAID_C6135D07_B528_433d_96E4_A460AB79314E" xmi:type="uml:Class" name="nkr-aot:AccountOwnerType" scope="public">
 				<model package="EAPK_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC" tpos="0" ea_localid="14292" ea_eleType="element"/>
 				<properties isSpecification="false" sType="Class" nType="0" alias="Kontoejertype" scope="public" stereotype="OwlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="Per de Place Bjørn" version="1.0" phase="1.0" created="2018-09-05 09:33:01" modified="2018-09-07 11:52:12" complexity="1" status="Proposed"/>
+				<project author="Per de Place BjÃ¸rn" version="1.0" phase="1.0" created="2018-09-05 09:33:01" modified="2018-09-07 11:52:12" complexity="1" status="Proposed"/>
 				<code product_name="XSD" gentype="XSD"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -1361,7 +1361,7 @@
 			<element xmi:idref="EAID_5165BA46_0303_47bf_B35B_2F0832AE94A9" xmi:type="uml:Class" name="nkr-at:AccountType" scope="public">
 				<model package="EAPK_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC" tpos="0" ea_localid="13188" ea_eleType="element"/>
 				<properties isSpecification="false" sType="Class" nType="0" alias="Kontotype" scope="public" stereotype="OwlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="Per de Place Bjørn" version="1.0" phase="1.0" created="2018-08-30 16:29:29" modified="2018-09-05 15:03:51" complexity="1" status="Proposed"/>
+				<project author="Per de Place BjÃ¸rn" version="1.0" phase="1.0" created="2018-08-30 16:29:29" modified="2018-09-05 15:03:51" complexity="1" status="Proposed"/>
 				<code gentype="XSD"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -1401,8 +1401,8 @@
 			</element>
 			<element xmi:idref="EAID_37E38F8F_58BF_4d65_A5DF_C1CCDD861D73" xmi:type="uml:Class" name="nkr-bs:BusinessSecondaryIdentificationType" scope="public">
 				<model package="EAPK_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC" tpos="0" ea_localid="14294" ea_eleType="element"/>
-				<properties isSpecification="false" sType="Class" nType="0" alias="VirksomhedSekundærIdentifikationstype" scope="public" stereotype="OwlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="Per de Place Bjørn" version="1.0" phase="1.0" created="2018-09-05 09:33:43" modified="2018-09-05 15:03:11" complexity="1" status="Proposed"/>
+				<properties isSpecification="false" sType="Class" nType="0" alias="VirksomhedSekundÃ¦rIdentifikationstype" scope="public" stereotype="OwlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
+				<project author="Per de Place BjÃ¸rn" version="1.0" phase="1.0" created="2018-09-05 09:33:43" modified="2018-09-05 15:03:11" complexity="1" status="Proposed"/>
 				<code gentype="XSD"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -1443,7 +1443,7 @@
 			<element xmi:idref="EAID_2CE58CFB_62DA_4246_8D66_154EE7775CF6" xmi:type="uml:Class" name="nkr-eat:EntryAddressType" scope="public">
 				<model package="EAPK_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC" tpos="0" ea_localid="14304" ea_eleType="element"/>
 				<properties isSpecification="false" sType="Class" nType="0" alias="Konteringsdadressetype" scope="public" stereotype="OwlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="Per de Place Bjørn" version="1.0" phase="1.0" created="2018-09-06 10:28:02" modified="2018-09-07 11:02:34" complexity="1" status="Proposed"/>
+				<project author="Per de Place BjÃ¸rn" version="1.0" phase="1.0" created="2018-09-06 10:28:02" modified="2018-09-07 11:02:34" complexity="1" status="Proposed"/>
 				<code gentype="XSD"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -1484,7 +1484,7 @@
 			<element xmi:idref="EAID_C50BD86E_713A_4bf3_9FB9_76C1AC7CBA9F" xmi:type="uml:Class" name="nkr-fit:FinancialInstitutionType" scope="public">
 				<model package="EAPK_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC" tpos="0" ea_localid="13190" ea_eleType="element"/>
 				<properties isSpecification="false" sType="Class" nType="0" alias="Pengeinstituttype" scope="public" stereotype="OwlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="Per de Place Bjørn" version="1.0" phase="1.0" created="2018-08-31 10:28:14" modified="2018-09-05 15:06:23" complexity="1" status="Proposed"/>
+				<project author="Per de Place BjÃ¸rn" version="1.0" phase="1.0" created="2018-08-31 10:28:14" modified="2018-09-05 15:06:23" complexity="1" status="Proposed"/>
 				<code gentype="XSD"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -1532,7 +1532,7 @@
 			<element xmi:idref="EAID_2DC32D32_1178_487c_A25C_E6A26E7F62F0" xmi:type="uml:Class" name="nkr:AccountOwner" scope="public">
 				<model package="EAPK_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC" tpos="0" ea_localid="13186" ea_eleType="element"/>
 				<properties isSpecification="false" sType="Class" nType="0" alias="Kontoejer" scope="public" stereotype="OwlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="Per de Place Bjørn" version="1.0" phase="1.0" created="2018-08-30 16:22:47" modified="2018-09-05 14:46:40" complexity="1" status="Proposed"/>
+				<project author="Per de Place BjÃ¸rn" version="1.0" phase="1.0" created="2018-08-30 16:22:47" modified="2018-09-05 14:46:40" complexity="1" status="Proposed"/>
 				<code gentype="XSD"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -1616,7 +1616,7 @@
 						<stereotype stereotype="DatatypeProperty"/>
 						<bounds lower="1" upper="1"/>
 						<options/>
-						<style value="virksomhedSekundærIdentifikation"/>
+						<style value="virksomhedSekundÃ¦rIdentifikation"/>
 						<styleex value="volatile=0;union=0;"/>
 						<tags>
 							<tag xmi:id="EAID_A81984F8_B531_95b5_A597_A863FBFBC291" name="functionalProperty" value="false" notes="Values: True,False&#xA;Default: false&#xA;"/>
@@ -1700,7 +1700,7 @@
 			<element xmi:idref="EAID_511BB9A5_37FC_4e50_AC57_B825D24FA0BC" xmi:type="uml:Class" name="schema:BankAccount" scope="public">
 				<model package="EAPK_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC" tpos="0" ea_localid="13187" ea_eleType="element"/>
 				<properties isSpecification="false" sType="Class" nType="0" alias="Konto" scope="public" stereotype="OwlClass" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
-				<project author="Per de Place Bjørn" version="1.0" phase="1.0" created="2018-08-30 16:25:44" modified="2018-09-05 13:38:39" complexity="1" status="Proposed"/>
+				<project author="Per de Place BjÃ¸rn" version="1.0" phase="1.0" created="2018-08-30 16:25:44" modified="2018-09-05 13:38:39" complexity="1" status="Proposed"/>
 				<code gentype="XSD"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -1718,7 +1718,7 @@
 					<tag xmi:id="EAID_B8C86962_F611_36f6_ABAC_67B65BF7CE23" name="example (da)" value="&lt;memo&gt;" modelElement="EAID_511BB9A5_37FC_4e50_AC57_B825D24FA0BC"/>
 					<tag xmi:id="EAID_B8C86F50_FBFF_36fb_A0F2_D224622DF958" name="example (en)" value="&lt;memo&gt;" modelElement="EAID_511BB9A5_37FC_4e50_AC57_B825D24FA0BC"/>
 					<tag xmi:id="EAID_E2FC29C6_3855_d638_964A_3FE3703CAE16" name="isDefinedBy" modelElement="EAID_511BB9A5_37FC_4e50_AC57_B825D24FA0BC"/>
-					<tag xmi:id="EAID_A5D15AD6_EFC5_86ef_A262_793919AFAF30" name="label (da)" value="Kånto" modelElement="EAID_511BB9A5_37FC_4e50_AC57_B825D24FA0BC"/>
+					<tag xmi:id="EAID_A5D15AD6_EFC5_86ef_A262_793919AFAF30" name="label (da)" value="KÃ¥nto" modelElement="EAID_511BB9A5_37FC_4e50_AC57_B825D24FA0BC"/>
 					<tag xmi:id="EAID_A5D160C4_F5B3_86f5_9684_A0FB8B3DF72A" name="label (en)" modelElement="EAID_511BB9A5_37FC_4e50_AC57_B825D24FA0BC"/>
 					<tag xmi:id="EAID_CC387636_94E5_fb94_AB18_0E52052B51CD" name="legalSource" modelElement="EAID_511BB9A5_37FC_4e50_AC57_B825D24FA0BC"/>
 					<tag xmi:id="EAID_5D30DBE3_2C32_232c_BF56_00089E1676CC" name="prefLabel (da)" modelElement="EAID_511BB9A5_37FC_4e50_AC57_B825D24FA0BC"/>
@@ -1756,7 +1756,7 @@
 							<tag xmi:id="EAID_A5D15AD6_EFC5_86ef_A4F6_F9AA46994BD0" name="label (da)"/>
 							<tag xmi:id="EAID_E4EE217F_23CE_c123_BA04_1380C2AB29AA" name="definition (da)" value="&lt;memo&gt;"/>
 							<tag xmi:id="EAID_B8C86962_F611_36f6_9020_055291BACEFF" name="example (da)" value="&lt;memo&gt;"/>
-							<tag xmi:id="EAID_6D3BD229_5ED8_aa5e_B718_467F6537E2D7" name="comment (da)" value="&lt;memo&gt;" notes="modsvarer NEM-VALUTAKODE&#xA;ISO 4217 currency designators.&#xA;&#xA;Valutakoder&#xA;ISO 4217 tre tegn,&#xA;består af iso 3166 alph2  + tegn&#xA;4217 indeholder både alph, numeric og decimal&#xA;&#xA;Udstillet som Currency NAL&#xA;"/>
+							<tag xmi:id="EAID_6D3BD229_5ED8_aa5e_B718_467F6537E2D7" name="comment (da)" value="&lt;memo&gt;" notes="modsvarer NEM-VALUTAKODE&#xA;ISO 4217 currency designators.&#xA;&#xA;Valutakoder&#xA;ISO 4217 tre tegn,&#xA;bestÃ¥r af iso 3166 alph2  + tegn&#xA;4217 indeholder bÃ¥de alph, numeric og decimal&#xA;&#xA;Udstillet som Currency NAL&#xA;"/>
 							<tag xmi:id="EAID_59BB15E0_C16F_78c1_A556_00DCF2C1E13C" name="applicationNote (da)" value="&lt;memo&gt;"/>
 							<tag xmi:id="EAID_5D30E1D1_3220_2332_AA02_9F86BEA92D8C" name="prefLabel (en)"/>
 							<tag xmi:id="EAID_CD818105_7F74_6f7f_9F82_200D8BC8BE05" name="altLabel (en)"/>
@@ -2120,7 +2120,7 @@
 			<element xmi:idref="EAID_61D5ADCA_BD24_4d85_9BCA_FD92C2666129" xmi:type="uml:Object" name="nkr-aot:Person" scope="public">
 				<model package="EAPK_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC" tpos="0" ea_localid="15516" ea_eleType="element"/>
 				<properties isSpecification="false" sType="Object" nType="0" scope="public" stereotype="Individual" isAbstract="false"/>
-				<project author="Per de Place Bjørn" version="1.0" phase="1.0" created="2018-09-07 10:03:19" modified="2018-09-07 12:52:09" complexity="1" status="Proposed"/>
+				<project author="Per de Place BjÃ¸rn" version="1.0" phase="1.0" created="2018-09-07 10:03:19" modified="2018-09-07 12:52:09" complexity="1" status="Proposed"/>
 				<code gentype="XSD"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -2157,7 +2157,7 @@
 			<element xmi:idref="EAID_F4F4786D_BDA7_47d6_97A2_67A32C9786BD" xmi:type="uml:Object" name="nkr-aot:Person" scope="public">
 				<model package="EAPK_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC" tpos="0" ea_localid="20814" ea_eleType="element"/>
 				<properties isSpecification="false" sType="Object" nType="0" scope="public" stereotype="Individual" isAbstract="false"/>
-				<project author="Per de Place Bjørn" version="1.0" phase="1.0" created="2018-11-14 19:25:24" modified="2018-09-07 12:52:09" complexity="1" status="Proposed"/>
+				<project author="Per de Place BjÃ¸rn" version="1.0" phase="1.0" created="2018-11-14 19:25:24" modified="2018-09-07 12:52:09" complexity="1" status="Proposed"/>
 				<code gentype="XSD"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -2194,7 +2194,7 @@
 			<element xmi:idref="EAID_8D3A49BD_62EE_4563_9AA6_51E269595AF3" xmi:type="uml:Object" name="nkr-at:General" scope="public">
 				<model package="EAPK_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC" tpos="0" ea_localid="15520" ea_eleType="element"/>
 				<properties isSpecification="false" sType="Object" nType="0" scope="public" stereotype="Individual" isAbstract="false"/>
-				<project author="Per de Place Bjørn" version="1.0" phase="1.0" created="2018-09-07 10:17:47" modified="2018-09-07 13:06:13" complexity="1" status="Proposed"/>
+				<project author="Per de Place BjÃ¸rn" version="1.0" phase="1.0" created="2018-09-07 10:17:47" modified="2018-09-07 13:06:13" complexity="1" status="Proposed"/>
 				<code gentype="XSD"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -2231,7 +2231,7 @@
 			<element xmi:idref="EAID_39F1E05A_A299_4e64_9688_8ED39363643E" xmi:type="uml:Object" name="nkr-at:General" scope="public">
 				<model package="EAPK_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC" tpos="0" ea_localid="20818" ea_eleType="element"/>
 				<properties isSpecification="false" sType="Object" nType="0" scope="public" stereotype="Individual" isAbstract="false"/>
-				<project author="Per de Place Bjørn" version="1.0" phase="1.0" created="2018-11-14 19:25:39" modified="2018-09-07 13:06:13" complexity="1" status="Proposed"/>
+				<project author="Per de Place BjÃ¸rn" version="1.0" phase="1.0" created="2018-11-14 19:25:39" modified="2018-09-07 13:06:13" complexity="1" status="Proposed"/>
 				<code gentype="XSD"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -2268,7 +2268,7 @@
 			<element xmi:idref="EAID_C2DCC98E_757D_4170_8F4D_67AF519E0FFD" xmi:type="uml:Object" name="nkr-at:Specific" scope="public">
 				<model package="EAPK_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC" tpos="0" ea_localid="15521" ea_eleType="element"/>
 				<properties isSpecification="false" sType="Object" nType="0" scope="public" stereotype="Individual" isAbstract="false"/>
-				<project author="Per de Place Bjørn" version="1.0" phase="1.0" created="2018-09-07 10:18:15" modified="2018-09-07 10:18:25" complexity="1" status="Proposed"/>
+				<project author="Per de Place BjÃ¸rn" version="1.0" phase="1.0" created="2018-09-07 10:18:15" modified="2018-09-07 10:18:25" complexity="1" status="Proposed"/>
 				<code gentype="XSD"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -2305,7 +2305,7 @@
 			<element xmi:idref="EAID_B01C94BE_9C66_4469_87A7_0619A3353A94" xmi:type="uml:Object" name="nkr-at:Specific" scope="public">
 				<model package="EAPK_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC" tpos="0" ea_localid="20819" ea_eleType="element"/>
 				<properties isSpecification="false" sType="Object" nType="0" scope="public" stereotype="Individual" isAbstract="false"/>
-				<project author="Per de Place Bjørn" version="1.0" phase="1.0" created="2018-11-14 19:25:43" modified="2018-09-07 10:18:25" complexity="1" status="Proposed"/>
+				<project author="Per de Place BjÃ¸rn" version="1.0" phase="1.0" created="2018-11-14 19:25:43" modified="2018-09-07 10:18:25" complexity="1" status="Proposed"/>
 				<code gentype="XSD"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -2342,7 +2342,7 @@
 			<element xmi:idref="EAID_9990E308_A1EC_4e4e_91EC_34D9072D287C" xmi:type="uml:Object" name="nkr-bs:P-number" scope="public">
 				<model package="EAPK_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC" tpos="0" ea_localid="15519" ea_eleType="element"/>
 				<properties isSpecification="false" sType="Object" nType="0" scope="public" stereotype="Individual" isAbstract="false"/>
-				<project author="Per de Place Bjørn" version="1.0" phase="1.0" created="2018-09-07 10:16:50" modified="2018-09-07 11:12:50" complexity="1" status="Proposed"/>
+				<project author="Per de Place BjÃ¸rn" version="1.0" phase="1.0" created="2018-09-07 10:16:50" modified="2018-09-07 11:12:50" complexity="1" status="Proposed"/>
 				<code gentype="XSD"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -2379,7 +2379,7 @@
 			<element xmi:idref="EAID_FF9F9513_28BA_42a3_B803_B3F1BA47CCBA" xmi:type="uml:Object" name="nkr-bs:P-number" scope="public">
 				<model package="EAPK_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC" tpos="0" ea_localid="20817" ea_eleType="element"/>
 				<properties isSpecification="false" sType="Object" nType="0" scope="public" stereotype="Individual" isAbstract="false"/>
-				<project author="Per de Place Bjørn" version="1.0" phase="1.0" created="2018-11-14 19:25:36" modified="2018-09-07 11:12:50" complexity="1" status="Proposed"/>
+				<project author="Per de Place BjÃ¸rn" version="1.0" phase="1.0" created="2018-11-14 19:25:36" modified="2018-09-07 11:12:50" complexity="1" status="Proposed"/>
 				<code gentype="XSD"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -2416,7 +2416,7 @@
 			<element xmi:idref="EAID_E0C712D6_B56A_4a4a_9171_C6B1C77350D1" xmi:type="uml:Object" name="nkr-bs:SE-number" scope="public">
 				<model package="EAPK_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC" tpos="0" ea_localid="15518" ea_eleType="element"/>
 				<properties isSpecification="false" sType="Object" nType="0" scope="public" stereotype="Individual" isAbstract="false"/>
-				<project author="Per de Place Bjørn" version="1.0" phase="1.0" created="2018-09-07 10:16:23" modified="2018-09-07 10:16:49" complexity="1" status="Proposed"/>
+				<project author="Per de Place BjÃ¸rn" version="1.0" phase="1.0" created="2018-09-07 10:16:23" modified="2018-09-07 10:16:49" complexity="1" status="Proposed"/>
 				<code gentype="XSD"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -2453,7 +2453,7 @@
 			<element xmi:idref="EAID_C8504523_6CFC_46c4_AF7B_DE89B55F476F" xmi:type="uml:Object" name="nkr-bs:SE-number" scope="public">
 				<model package="EAPK_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC" tpos="0" ea_localid="20816" ea_eleType="element"/>
 				<properties isSpecification="false" sType="Object" nType="0" scope="public" stereotype="Individual" isAbstract="false"/>
-				<project author="Per de Place Bjørn" version="1.0" phase="1.0" created="2018-11-14 19:25:32" modified="2018-09-07 10:16:49" complexity="1" status="Proposed"/>
+				<project author="Per de Place BjÃ¸rn" version="1.0" phase="1.0" created="2018-11-14 19:25:32" modified="2018-09-07 10:16:49" complexity="1" status="Proposed"/>
 				<code gentype="XSD"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -2490,7 +2490,7 @@
 			<element xmi:idref="EAID_306E5808_549E_45e7_A54C_91C3042DAB55" xmi:type="uml:Object" name="nkr-eat:Account Owner" scope="public">
 				<model package="EAPK_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC" tpos="0" ea_localid="15564" ea_eleType="element"/>
 				<properties isSpecification="false" sType="Object" nType="0" scope="public" stereotype="Individual" isAbstract="false"/>
-				<project author="Per de Place Bjørn" version="1.0" phase="1.0" created="2018-09-07 11:01:11" modified="2018-09-07 11:04:40" complexity="1" status="Proposed"/>
+				<project author="Per de Place BjÃ¸rn" version="1.0" phase="1.0" created="2018-09-07 11:01:11" modified="2018-09-07 11:04:40" complexity="1" status="Proposed"/>
 				<code gentype="XSD"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -2527,7 +2527,7 @@
 			<element xmi:idref="EAID_953DD8F5_C351_4523_AF8A_97CD06B05A64" xmi:type="uml:Object" name="nkr-eat:Account Owner" scope="public">
 				<model package="EAPK_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC" tpos="0" ea_localid="20824" ea_eleType="element"/>
 				<properties isSpecification="false" sType="Object" nType="0" scope="public" stereotype="Individual" isAbstract="false"/>
-				<project author="Per de Place Bjørn" version="1.0" phase="1.0" created="2018-11-14 19:26:02" modified="2018-09-07 11:04:40" complexity="1" status="Proposed"/>
+				<project author="Per de Place BjÃ¸rn" version="1.0" phase="1.0" created="2018-11-14 19:26:02" modified="2018-09-07 11:04:40" complexity="1" status="Proposed"/>
 				<code gentype="XSD"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -2564,7 +2564,7 @@
 			<element xmi:idref="EAID_A996F7F6_F956_4d57_AF36_F769E13F5182" xmi:type="uml:Object" name="nkr-fit:Creditor number" scope="public">
 				<model package="EAPK_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC" tpos="0" ea_localid="15524" ea_eleType="element"/>
 				<properties isSpecification="false" sType="Object" nType="0" scope="public" stereotype="Individual" isAbstract="false"/>
-				<project author="Per de Place Bjørn" version="1.0" phase="1.0" created="2018-09-07 10:19:56" modified="2018-09-07 10:20:29" complexity="1" status="Proposed"/>
+				<project author="Per de Place BjÃ¸rn" version="1.0" phase="1.0" created="2018-09-07 10:19:56" modified="2018-09-07 10:20:29" complexity="1" status="Proposed"/>
 				<code gentype="XSD"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -2601,7 +2601,7 @@
 			<element xmi:idref="EAID_A790AFFA_57A0_4252_B468_531C40BCE497" xmi:type="uml:Object" name="nkr-fit:Creditor number" scope="public">
 				<model package="EAPK_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC" tpos="0" ea_localid="20822" ea_eleType="element"/>
 				<properties isSpecification="false" sType="Object" nType="0" scope="public" stereotype="Individual" isAbstract="false"/>
-				<project author="Per de Place Bjørn" version="1.0" phase="1.0" created="2018-11-14 19:25:54" modified="2018-09-07 10:20:29" complexity="1" status="Proposed"/>
+				<project author="Per de Place BjÃ¸rn" version="1.0" phase="1.0" created="2018-11-14 19:25:54" modified="2018-09-07 10:20:29" complexity="1" status="Proposed"/>
 				<code gentype="XSD"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -2638,7 +2638,7 @@
 			<element xmi:idref="EAID_BBF4D7D6_9A54_4b52_A46E_01A44FF4784A" xmi:type="uml:Object" name="nkr-fit:Domestic" scope="public">
 				<model package="EAPK_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC" tpos="0" ea_localid="15522" ea_eleType="element"/>
 				<properties isSpecification="false" sType="Object" nType="0" scope="public" stereotype="Individual" isAbstract="false"/>
-				<project author="Per de Place Bjørn" version="1.0" phase="1.0" created="2018-09-07 10:18:47" modified="2018-09-07 10:19:08" complexity="1" status="Proposed"/>
+				<project author="Per de Place BjÃ¸rn" version="1.0" phase="1.0" created="2018-09-07 10:18:47" modified="2018-09-07 10:19:08" complexity="1" status="Proposed"/>
 				<code gentype="XSD"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -2675,7 +2675,7 @@
 			<element xmi:idref="EAID_AEA68BD2_D973_4b77_A3B8_258308C1FBBD" xmi:type="uml:Object" name="nkr-fit:Domestic" scope="public">
 				<model package="EAPK_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC" tpos="0" ea_localid="20820" ea_eleType="element"/>
 				<properties isSpecification="false" sType="Object" nType="0" scope="public" stereotype="Individual" isAbstract="false"/>
-				<project author="Per de Place Bjørn" version="1.0" phase="1.0" created="2018-11-14 19:25:47" modified="2018-09-07 10:19:08" complexity="1" status="Proposed"/>
+				<project author="Per de Place BjÃ¸rn" version="1.0" phase="1.0" created="2018-11-14 19:25:47" modified="2018-09-07 10:19:08" complexity="1" status="Proposed"/>
 				<code gentype="XSD"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -2712,7 +2712,7 @@
 			<element xmi:idref="EAID_B48715A7_C157_4b47_A680_CEE76713EF99" xmi:type="uml:Object" name="nkr-fit:Foreign Non-SEPA" scope="public">
 				<model package="EAPK_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC" tpos="0" ea_localid="15657" ea_eleType="element"/>
 				<properties isSpecification="false" sType="Object" nType="0" scope="public" stereotype="Individual" isAbstract="false"/>
-				<project author="Per de Place Bjørn" version="1.0" phase="1.0" created="2018-09-07 15:07:14" modified="2018-09-07 15:08:04" complexity="1" status="Proposed"/>
+				<project author="Per de Place BjÃ¸rn" version="1.0" phase="1.0" created="2018-09-07 15:07:14" modified="2018-09-07 15:08:04" complexity="1" status="Proposed"/>
 				<code gentype="XSD"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -2749,7 +2749,7 @@
 			<element xmi:idref="EAID_843DF676_9792_4fc1_B195_AAE91FA48897" xmi:type="uml:Object" name="nkr-fit:Foreign Non-SEPA" scope="public">
 				<model package="EAPK_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC" tpos="0" ea_localid="20826" ea_eleType="element"/>
 				<properties isSpecification="false" sType="Object" nType="0" scope="public" stereotype="Individual" isAbstract="false"/>
-				<project author="Per de Place Bjørn" version="1.0" phase="1.0" created="2018-11-14 19:26:09" modified="2018-09-07 15:08:04" complexity="1" status="Proposed"/>
+				<project author="Per de Place BjÃ¸rn" version="1.0" phase="1.0" created="2018-11-14 19:26:09" modified="2018-09-07 15:08:04" complexity="1" status="Proposed"/>
 				<code gentype="XSD"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -2786,7 +2786,7 @@
 			<element xmi:idref="EAID_E458E424_25C0_41e1_BF3E_C6BC7CAEAC2D" xmi:type="uml:Object" name="nkr-fit:Foreign SEPA" scope="public">
 				<model package="EAPK_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC" tpos="0" ea_localid="15523" ea_eleType="element"/>
 				<properties isSpecification="false" sType="Object" nType="0" scope="public" stereotype="Individual" isAbstract="false"/>
-				<project author="Per de Place Bjørn" version="1.0" phase="1.0" created="2018-09-07 10:19:09" modified="2018-09-07 15:08:41" complexity="1" status="Proposed"/>
+				<project author="Per de Place BjÃ¸rn" version="1.0" phase="1.0" created="2018-09-07 10:19:09" modified="2018-09-07 15:08:41" complexity="1" status="Proposed"/>
 				<code gentype="XSD"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -2823,7 +2823,7 @@
 			<element xmi:idref="EAID_79D67F3B_5898_4f46_B159_A8BEA86D30B4" xmi:type="uml:Object" name="nkr-fit:Foreign SEPA" scope="public">
 				<model package="EAPK_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC" tpos="0" ea_localid="20821" ea_eleType="element"/>
 				<properties isSpecification="false" sType="Object" nType="0" scope="public" stereotype="Individual" isAbstract="false"/>
-				<project author="Per de Place Bjørn" version="1.0" phase="1.0" created="2018-11-14 19:25:51" modified="2018-09-07 15:08:41" complexity="1" status="Proposed"/>
+				<project author="Per de Place BjÃ¸rn" version="1.0" phase="1.0" created="2018-11-14 19:25:51" modified="2018-09-07 15:08:41" complexity="1" status="Proposed"/>
 				<code gentype="XSD"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -2860,7 +2860,7 @@
 			<element xmi:idref="EAID_07A6F45B_3EF7_4040_8FF2_6B4021E8BA41" xmi:type="uml:Object" name="nkr-fit:Giro number" scope="public">
 				<model package="EAPK_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC" tpos="0" ea_localid="15525" ea_eleType="element"/>
 				<properties isSpecification="false" sType="Object" nType="0" scope="public" stereotype="Individual" isAbstract="false"/>
-				<project author="Per de Place Bjørn" version="1.0" phase="1.0" created="2018-09-07 10:20:30" modified="2018-09-07 10:31:45" complexity="1" status="Proposed"/>
+				<project author="Per de Place BjÃ¸rn" version="1.0" phase="1.0" created="2018-09-07 10:20:30" modified="2018-09-07 10:31:45" complexity="1" status="Proposed"/>
 				<code gentype="XSD"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -2897,7 +2897,7 @@
 			<element xmi:idref="EAID_D131C550_A498_4ce2_B152_0EB6351BB728" xmi:type="uml:Object" name="nkr-fit:Giro number" scope="public">
 				<model package="EAPK_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC" tpos="0" ea_localid="20823" ea_eleType="element"/>
 				<properties isSpecification="false" sType="Object" nType="0" scope="public" stereotype="Individual" isAbstract="false"/>
-				<project author="Per de Place Bjørn" version="1.0" phase="1.0" created="2018-11-14 19:25:58" modified="2018-09-07 10:31:45" complexity="1" status="Proposed"/>
+				<project author="Per de Place BjÃ¸rn" version="1.0" phase="1.0" created="2018-11-14 19:25:58" modified="2018-09-07 10:31:45" complexity="1" status="Proposed"/>
 				<code gentype="XSD"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -2934,7 +2934,7 @@
 			<element xmi:idref="EAID_F96A410C_7E60_4300_B496_4F1C96853C5A" xmi:type="uml:Object" name="nkt-aot:Business" scope="public">
 				<model package="EAPK_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC" tpos="0" ea_localid="15517" ea_eleType="element"/>
 				<properties isSpecification="false" sType="Object" nType="0" scope="public" stereotype="Individual" isAbstract="false"/>
-				<project author="Per de Place Bjørn" version="1.0" phase="1.0" created="2018-09-07 10:04:16" modified="2018-09-07 12:52:14" complexity="1" status="Proposed"/>
+				<project author="Per de Place BjÃ¸rn" version="1.0" phase="1.0" created="2018-09-07 10:04:16" modified="2018-09-07 12:52:14" complexity="1" status="Proposed"/>
 				<code gentype="XSD"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -2971,7 +2971,7 @@
 			<element xmi:idref="EAID_DC47E533_1AD2_4ba2_B268_E3161A0B1E80" xmi:type="uml:Object" name="nkt-aot:Business" scope="public">
 				<model package="EAPK_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC" tpos="0" ea_localid="20815" ea_eleType="element"/>
 				<properties isSpecification="false" sType="Object" nType="0" scope="public" stereotype="Individual" isAbstract="false"/>
-				<project author="Per de Place Bjørn" version="1.0" phase="1.0" created="2018-11-14 19:25:28" modified="2018-09-07 12:52:14" complexity="1" status="Proposed"/>
+				<project author="Per de Place BjÃ¸rn" version="1.0" phase="1.0" created="2018-11-14 19:25:28" modified="2018-09-07 12:52:14" complexity="1" status="Proposed"/>
 				<code gentype="XSD"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -3008,7 +3008,7 @@
 			<element xmi:idref="EAID_B47AD114_7400_4339_AB82_B634CA04D146" xmi:type="uml:Object" name="nkt-eat:Financial Institution" scope="public">
 				<model package="EAPK_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC" tpos="0" ea_localid="15565" ea_eleType="element"/>
 				<properties isSpecification="false" sType="Object" nType="0" scope="public" stereotype="Individual" isAbstract="false"/>
-				<project author="Per de Place Bjørn" version="1.0" phase="1.0" created="2018-09-07 11:04:41" modified="2018-09-07 11:40:27" complexity="1" status="Proposed"/>
+				<project author="Per de Place BjÃ¸rn" version="1.0" phase="1.0" created="2018-09-07 11:04:41" modified="2018-09-07 11:40:27" complexity="1" status="Proposed"/>
 				<code gentype="XSD"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -3045,7 +3045,7 @@
 			<element xmi:idref="EAID_64FA440E_FCC3_45b6_AC92_5E4BB129A65D" xmi:type="uml:Object" name="nkt-eat:Financial Institution" scope="public">
 				<model package="EAPK_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC" tpos="0" ea_localid="20825" ea_eleType="element"/>
 				<properties isSpecification="false" sType="Object" nType="0" scope="public" stereotype="Individual" isAbstract="false"/>
-				<project author="Per de Place Bjørn" version="1.0" phase="1.0" created="2018-11-14 19:26:05" modified="2018-09-07 11:40:27" complexity="1" status="Proposed"/>
+				<project author="Per de Place BjÃ¸rn" version="1.0" phase="1.0" created="2018-11-14 19:26:05" modified="2018-09-07 11:40:27" complexity="1" status="Proposed"/>
 				<code gentype="XSD"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags>
@@ -3082,7 +3082,7 @@
 			<element xmi:idref="EAID_4B1735BC_9B0C_4ed2_B5B2_6FF136D4497B" xmi:type="uml:ProxyConnector" name="ProxyConnector" scope="public" classifier="EAID_E8DF3281_BE28_4a05_AD4A_E2E310E1767F">
 				<model package="EAPK_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC" tpos="0" ea_localid="13192" ea_eleType="element"/>
 				<properties isSpecification="false" sType="ProxyConnector" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<project author="Per de Place Bjørn" version="1.0" phase="1.0" created="2018-08-31 10:29:17" modified="2018-08-31 10:29:17" complexity="1" status="Proposed"/>
+				<project author="Per de Place BjÃ¸rn" version="1.0" phase="1.0" created="2018-08-31 10:29:17" modified="2018-08-31 10:29:17" complexity="1" status="Proposed"/>
 				<code gentype="Java"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 				<tags/>
@@ -3092,7 +3092,7 @@
 			<element xmi:idref="EAID_5C30CD91_B460_4834_90DD_4BCF2AEED31C" xmi:type="uml:Note" scope="public">
 				<model package="EAPK_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC" tpos="0" ea_localid="14301" ea_eleType="element"/>
 				<properties documentation="&lt;b&gt;Prefix            Namespace                                                                                                             Vocabulary&lt;/b&gt;&#xA;nkr                 https://data.gov.dk/model/nemkontoregisteret#                                             Vokabular for Nemkontoregisteret&#xA;nkr-aot          https://data.gov.dk/model/nemkontoregisteret-accountownertype#           Klassification: NKR Account Owner Types&#xA;nkr-bs            https://data.gov.dk/model/nemkontoregisteret-businesssubid#                   Klassification: NKR Businees Sub-Identification Types&#xA;nkr-at             https://data.gov.dk/model/nemkontoregisteret-accounttype#                     Klassification: NKR Account Types&#xA;nkr-fit             https://data.gov.dk/model/nemkontoregisteret-financialinstitutiontype#  Klassification: NKR Financial Institution Type&#xA;nkr-eat           https://data.gov.dk/model/nemkontoregisteret-entryaddresstype#            Klassification: NKR Entry Address Type&#xA;schema          http://schema.org/                                                                                               Schema.org&#xA;gn                   http://www.geonames.org/ontology#                                                               GeoNames Ontology&#xA;locn                http://www.w3.org/ns/locn#                                                                             ISA Programme Location Core Vocabulary&#xA;dbpedia-owl http://dbpedia.org/ontology/                                                                             DBpedia Ontology&#xA;" isSpecification="false" sType="Note" nType="0" scope="public"/>
-				<project author="Per de Place Bjørn" version="1.0" phase="1.0" created="2018-09-05 13:02:57" modified="2018-09-07 13:03:00" complexity="1" status="Proposed"/>
+				<project author="Per de Place BjÃ¸rn" version="1.0" phase="1.0" created="2018-09-05 13:02:57" modified="2018-09-07 13:03:00" complexity="1" status="Proposed"/>
 				<code gentype="XSD"/>
 				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;" object_style="MDoc=1;"/>
 				<modelDocument/>
@@ -3162,7 +3162,7 @@
 				<parameterSubstitutions/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels rb="1" rt="nkr:entryAddressType&#xA;«ObjectProperty»"/>
+				<labels rb="1" rt="nkr:entryAddressType&#xA;Â«ObjectPropertyÂ»"/>
 				<extendedProperties virtualInheritance="0"/>
 				<style/>
 				<xrefs/>
@@ -3228,7 +3228,7 @@
 				<parameterSubstitutions/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels rb="0..2" rt="nkr:entryAddress&#xA;«ObjectProperty»"/>
+				<labels rb="0..2" rt="nkr:entryAddress&#xA;Â«ObjectPropertyÂ»"/>
 				<extendedProperties virtualInheritance="0"/>
 				<style/>
 				<xrefs/>
@@ -3263,7 +3263,7 @@
 				<parameterSubstitutions/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels rt="rdf:type&#xA;«ObjectProperty»"/>
+				<labels rt="rdf:type&#xA;Â«ObjectPropertyÂ»"/>
 				<extendedProperties virtualInheritance="0"/>
 				<style/>
 				<xrefs/>
@@ -3298,7 +3298,7 @@
 				<parameterSubstitutions/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels rt="rdf:type&#xA;«ObjectProperty»"/>
+				<labels rt="rdf:type&#xA;Â«ObjectPropertyÂ»"/>
 				<extendedProperties virtualInheritance="0"/>
 				<style/>
 				<xrefs/>
@@ -3364,7 +3364,7 @@
 				<parameterSubstitutions/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels rb="1" rt="nkr:accountOwnerType&#xA;«ObjectProperty»"/>
+				<labels rb="1" rt="nkr:accountOwnerType&#xA;Â«ObjectPropertyÂ»"/>
 				<extendedProperties virtualInheritance="0"/>
 				<style/>
 				<xrefs/>
@@ -3430,7 +3430,7 @@
 				<parameterSubstitutions/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels rt="rdf:type&#xA;«ObjectProperty»"/>
+				<labels rt="rdf:type&#xA;Â«ObjectPropertyÂ»"/>
 				<extendedProperties virtualInheritance="0"/>
 				<style/>
 				<xrefs/>
@@ -3496,7 +3496,7 @@
 				<parameterSubstitutions/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels rt="rdf:type&#xA;«ObjectProperty»"/>
+				<labels rt="rdf:type&#xA;Â«ObjectPropertyÂ»"/>
 				<extendedProperties virtualInheritance="0"/>
 				<style/>
 				<xrefs/>
@@ -3531,7 +3531,7 @@
 				<parameterSubstitutions/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels rt="rdf:type&#xA;«ObjectProperty»"/>
+				<labels rt="rdf:type&#xA;Â«ObjectPropertyÂ»"/>
 				<extendedProperties virtualInheritance="0"/>
 				<style/>
 				<xrefs/>
@@ -3597,7 +3597,7 @@
 				<parameterSubstitutions/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels rt="rdf:type&#xA;«ObjectProperty»"/>
+				<labels rt="rdf:type&#xA;Â«ObjectPropertyÂ»"/>
 				<extendedProperties virtualInheritance="0"/>
 				<style/>
 				<xrefs/>
@@ -3663,7 +3663,7 @@
 				<parameterSubstitutions/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels rb="1" rt="nkr:accountType&#xA;«ObjectProperty»"/>
+				<labels rb="1" rt="nkr:accountType&#xA;Â«ObjectPropertyÂ»"/>
 				<extendedProperties virtualInheritance="0"/>
 				<style/>
 				<xrefs/>
@@ -3698,7 +3698,7 @@
 				<parameterSubstitutions/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels rt="rdf:type&#xA;«ObjectProperty»"/>
+				<labels rt="rdf:type&#xA;Â«ObjectPropertyÂ»"/>
 				<extendedProperties virtualInheritance="0"/>
 				<style/>
 				<xrefs/>
@@ -3764,7 +3764,7 @@
 				<parameterSubstitutions/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels rt="rdf:type&#xA;«ObjectProperty»"/>
+				<labels rt="rdf:type&#xA;Â«ObjectPropertyÂ»"/>
 				<extendedProperties virtualInheritance="0"/>
 				<style/>
 				<xrefs/>
@@ -3799,7 +3799,7 @@
 				<parameterSubstitutions/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels rt="rdf:type&#xA;«ObjectProperty»"/>
+				<labels rt="rdf:type&#xA;Â«ObjectPropertyÂ»"/>
 				<extendedProperties virtualInheritance="0"/>
 				<style/>
 				<xrefs/>
@@ -3865,7 +3865,7 @@
 				<parameterSubstitutions/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels rt="rdf:type&#xA;«ObjectProperty»"/>
+				<labels rt="rdf:type&#xA;Â«ObjectPropertyÂ»"/>
 				<extendedProperties virtualInheritance="0"/>
 				<style/>
 				<xrefs/>
@@ -3931,7 +3931,7 @@
 				<parameterSubstitutions/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels rt="rdf:type&#xA;«ObjectProperty»"/>
+				<labels rt="rdf:type&#xA;Â«ObjectPropertyÂ»"/>
 				<extendedProperties virtualInheritance="0"/>
 				<style/>
 				<xrefs/>
@@ -3966,7 +3966,7 @@
 				<parameterSubstitutions/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels rt="rdf:type&#xA;«ObjectProperty»"/>
+				<labels rt="rdf:type&#xA;Â«ObjectPropertyÂ»"/>
 				<extendedProperties virtualInheritance="0"/>
 				<style/>
 				<xrefs/>
@@ -3990,7 +3990,7 @@
 					<type multiplicity="1" aggregation="none" containment="Unspecified"/>
 					<constraints/>
 					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
-					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;alias=virksomhedSekundærIdentifikationstype;"/>
+					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;alias=virksomhedSekundÃ¦rIdentifikationstype;"/>
 					<documentation/>
 					<xrefs value="$XREFPROP=$XID={42AFFA00-059D-4b85-81DD-A4F427C7C80B}$XID;$NAM=Stereotypes$NAM;$TYP=connectorDestEnd property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=ObjectProperty;FQName=Plusprofil::ObjectProperty;@ENDSTEREO;$DES;$CLT={82593AEB-27E1-40b4-B9B6-5F21259CC45B}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 					<tags>
@@ -4032,7 +4032,7 @@
 				<parameterSubstitutions/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels rb="1" rt="nkr:businessSecondaryIdentificationType&#xA;«ObjectPr"/>
+				<labels rb="1" rt="nkr:businessSecondaryIdentificationType&#xA;Â«ObjectPr"/>
 				<extendedProperties virtualInheritance="0"/>
 				<style/>
 				<xrefs/>
@@ -4098,7 +4098,7 @@
 				<parameterSubstitutions/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels rt="rdf:type&#xA;«ObjectProperty»"/>
+				<labels rt="rdf:type&#xA;Â«ObjectPropertyÂ»"/>
 				<extendedProperties virtualInheritance="0"/>
 				<style/>
 				<xrefs/>
@@ -4133,7 +4133,7 @@
 				<parameterSubstitutions/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels rt="rdf:type&#xA;«ObjectProperty»"/>
+				<labels rt="rdf:type&#xA;Â«ObjectPropertyÂ»"/>
 				<extendedProperties virtualInheritance="0"/>
 				<style/>
 				<xrefs/>
@@ -4168,7 +4168,7 @@
 				<parameterSubstitutions/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels rt="rdf:type&#xA;«ObjectProperty»"/>
+				<labels rt="rdf:type&#xA;Â«ObjectPropertyÂ»"/>
 				<extendedProperties virtualInheritance="0"/>
 				<style/>
 				<xrefs/>
@@ -4234,7 +4234,7 @@
 				<parameterSubstitutions/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels rt="rdf:type&#xA;«ObjectProperty»"/>
+				<labels rt="rdf:type&#xA;Â«ObjectPropertyÂ»"/>
 				<extendedProperties virtualInheritance="0"/>
 				<style/>
 				<xrefs/>
@@ -4300,7 +4300,7 @@
 				<parameterSubstitutions/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels rt="rdf:type&#xA;«ObjectProperty»"/>
+				<labels rt="rdf:type&#xA;Â«ObjectPropertyÂ»"/>
 				<extendedProperties virtualInheritance="0"/>
 				<style/>
 				<xrefs/>
@@ -4366,7 +4366,7 @@
 				<parameterSubstitutions/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels rt="rdf:type&#xA;«ObjectProperty»"/>
+				<labels rt="rdf:type&#xA;Â«ObjectPropertyÂ»"/>
 				<extendedProperties virtualInheritance="0"/>
 				<style/>
 				<xrefs/>
@@ -4432,7 +4432,7 @@
 				<parameterSubstitutions/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels rt="rdf:type&#xA;«ObjectProperty»"/>
+				<labels rt="rdf:type&#xA;Â«ObjectPropertyÂ»"/>
 				<extendedProperties virtualInheritance="0"/>
 				<style/>
 				<xrefs/>
@@ -4467,7 +4467,7 @@
 				<parameterSubstitutions/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels rt="rdf:type&#xA;«ObjectProperty»"/>
+				<labels rt="rdf:type&#xA;Â«ObjectPropertyÂ»"/>
 				<extendedProperties virtualInheritance="0"/>
 				<style/>
 				<xrefs/>
@@ -4502,7 +4502,7 @@
 				<parameterSubstitutions/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels rt="rdf:type&#xA;«ObjectProperty»"/>
+				<labels rt="rdf:type&#xA;Â«ObjectPropertyÂ»"/>
 				<extendedProperties virtualInheritance="0"/>
 				<style/>
 				<xrefs/>
@@ -4568,7 +4568,7 @@
 				<parameterSubstitutions/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels rt="rdf:type&#xA;«ObjectProperty»"/>
+				<labels rt="rdf:type&#xA;Â«ObjectPropertyÂ»"/>
 				<extendedProperties virtualInheritance="0"/>
 				<style/>
 				<xrefs/>
@@ -4603,7 +4603,7 @@
 				<parameterSubstitutions/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels rt="rdf:type&#xA;«ObjectProperty»"/>
+				<labels rt="rdf:type&#xA;Â«ObjectPropertyÂ»"/>
 				<extendedProperties virtualInheritance="0"/>
 				<style/>
 				<xrefs/>
@@ -4638,7 +4638,7 @@
 				<parameterSubstitutions/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels rt="rdf:type&#xA;«ObjectProperty»"/>
+				<labels rt="rdf:type&#xA;Â«ObjectPropertyÂ»"/>
 				<extendedProperties virtualInheritance="0"/>
 				<style/>
 				<xrefs/>
@@ -4704,7 +4704,7 @@
 				<parameterSubstitutions/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels rb="1" rt="nkr:financialInstitutionType&#xA;«ObjectProperty»"/>
+				<labels rb="1" rt="nkr:financialInstitutionType&#xA;Â«ObjectPropertyÂ»"/>
 				<extendedProperties virtualInheritance="0"/>
 				<style/>
 				<xrefs/>
@@ -4739,7 +4739,7 @@
 				<parameterSubstitutions/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels rt="rdf:type&#xA;«ObjectProperty»"/>
+				<labels rt="rdf:type&#xA;Â«ObjectPropertyÂ»"/>
 				<extendedProperties virtualInheritance="0"/>
 				<style/>
 				<xrefs/>
@@ -4805,7 +4805,7 @@
 				<parameterSubstitutions/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels rt="rdf:type&#xA;«ObjectProperty»"/>
+				<labels rt="rdf:type&#xA;Â«ObjectPropertyÂ»"/>
 				<extendedProperties virtualInheritance="0"/>
 				<style/>
 				<xrefs/>
@@ -4849,7 +4849,7 @@
 				<parameterSubstitutions/>
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels rb="0..*" rt="schema:owns&#xA;«objectProperty»"/>
+				<labels rb="0..*" rt="schema:owns&#xA;Â«objectPropertyÂ»"/>
 				<extendedProperties virtualInheritance="0"/>
 				<style/>
 				<xrefs/>
@@ -5505,7 +5505,7 @@
 			<diagram xmi:id="EAID_0FDF4710_21B6_45e2_AC8B_F30A1E461B5C">
 				<model package="EAPK_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC" localID="1966" owner="EAPK_C4A7EEB5_77D5_4ee9_BE68_0EF86B9AB8EC"/>
 				<properties name="NemKontoregisteret" type="Logical"/>
-				<project author="Per de Place Bjørn" version="1.0" created="2018-11-02 09:02:44" modified="2018-11-02 09:05:19"/>
+				<project author="Per de Place BjÃ¸rn" version="1.0" created="2018-11-02 09:02:44" modified="2018-11-02 09:05:19"/>
 				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=0;HighlightForeign=0;PackageContents=0;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=1618;DocSize.cy=1118;ShowDetails=0;Orientation=L;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=8;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=1;HideElemStereo=1;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
 				<style2 value="ExcludeRTF=0;DocAll=0;HideQuals=1;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=Plusprofil::LogicalModel;DefaultLang=XSD;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;SaveTag=1B0EC8D2;"/>
 				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Carlito,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
@@ -5588,8 +5588,8 @@
 	<Plusprofil:ObjectProperty base_Property="EAID_dstB04AAF_D562_4da7_B017_979F0F158BD8" range="$ea_notes=" domain="$ea_notes=" inverseFunctionalProperty="false$ea_notes=Values: True,False&#xA;Default: false&#xA;" wasDerivedFrom="$ea_notes=" legalSource="$ea_notes=" prefLabel__en_="$ea_notes=" altLabel__da_="$ea_notes=" functionalProperty="false$ea_notes=Values: True,False&#xA;Default: false&#xA;" deprecatedLabel__da_="$ea_notes=" prefLabel__da_="$ea_notes=" deprecatedLabel__en_="$ea_notes=" label__en_="$ea_notes=" equivalentProperty="$ea_notes=" label__da_="$ea_notes=" transitiveProperty="false$ea_notes=Values: True,False&#xA;Default: false&#xA;" source="$ea_notes=" subPropertyOf="$ea_notes=" comment__da_="modsvarer NEM-IDENTIFIKATIONS-TYPE" URI="$ea_notes=" isDefinedBy="$ea_notes=" altLabel__en_="$ea_notes=" inverseOf="$ea_notes=" symmetricProperty="false$ea_notes=Values: True,False&#xA;Default: false&#xA;"/>
 	<Plusprofil:ObjectProperty base_Property="EAID_dst593AEB_27E1_40b4_B9B6_5F21259CC45B" range="$ea_notes=" domain="$ea_notes=" inverseFunctionalProperty="false$ea_notes=Values: True,False&#xA;Default: false&#xA;" wasDerivedFrom="$ea_notes=" legalSource="$ea_notes=" prefLabel__en_="$ea_notes=" altLabel__da_="$ea_notes=" functionalProperty="false$ea_notes=Values: True,False&#xA;Default: false&#xA;" deprecatedLabel__da_="$ea_notes=" prefLabel__da_="$ea_notes=" deprecatedLabel__en_="$ea_notes=" label__en_="$ea_notes=" equivalentProperty="$ea_notes=" label__da_="$ea_notes=" transitiveProperty="false$ea_notes=Values: True,False&#xA;Default: false&#xA;" source="$ea_notes=" subPropertyOf="$ea_notes=" URI="https://data.gov.dk/model/nemkontoregisteret#" isDefinedBy="$ea_notes=" altLabel__en_="$ea_notes=" inverseOf="$ea_notes=" symmetricProperty="false$ea_notes=Values: True,False&#xA;Default: false&#xA;"/>
 	<OWL:objectProperty base_Property="EAID_dstFF2F4B_6921_4b87_8ED7_6E3E07A6796B" isFunctional="$ea_notes=Values: True,False&#xA;" label="$ea_notes=" isTransitive="$ea_notes=Values: True,False&#xA;" isDeprecated="$ea_notes=Values: True,False&#xA;" isSymmetric="$ea_notes=Values: True,False&#xA;" uriRef="$ea_notes=" versionInfo="$ea_notes=" isInverseFunctional="$ea_notes=Values: True,False&#xA;"/>
-	<Plusprofil:OwlClass base_Class="EAID_511BB9A5_37FC_4e50_AC57_B825D24FA0BC" prefLabel__en_="bank account" definition__en_="A product or service offered by a bank whereby one may deposit, withdraw or transfer money and in some cases be paid interest." label__da_="Kånto" source="http://www.fibo.org/schema" comment__da_="modsvarer IM-NEM-SPECIFIK-KONTO" comment__en_="This element is based on the work of the Financial Industry Business Ontology project (see http://www.fibo.org/schema for details), in support of the W3C Financial Industry Business Ontology Community Group (http://www.fibo.org/community). Many class and property definitions are inspired by or based on http://www.fibo.org." URI="http://schema.org/BankAccount"/>
-	<Plusprofil:DatatypeProperty base_Property="EAID_4FF80202_831B_430e_884D_55C308F57A1C" functionalProperty="false" comment__da_="modsvarer NEM-VALUTAKODE&#xA;ISO 4217 currency designators.&#xA;&#xA;Valutakoder&#xA;ISO 4217 tre tegn,&#xA;består af iso 3166 alph2  + tegn&#xA;4217 indeholder både alph, numeric og decimal&#xA;&#xA;Udstillet som Currency NAL&#xA;" URI="http://dbpedia.org/ontology/currencyCode" isDefinedBy="http://dbpedia.org/ontology/"/>
+	<Plusprofil:OwlClass base_Class="EAID_511BB9A5_37FC_4e50_AC57_B825D24FA0BC" prefLabel__en_="bank account" definition__en_="A product or service offered by a bank whereby one may deposit, withdraw or transfer money and in some cases be paid interest." label__da_="KÃ¥nto" source="http://www.fibo.org/schema" comment__da_="modsvarer IM-NEM-SPECIFIK-KONTO" comment__en_="This element is based on the work of the Financial Industry Business Ontology project (see http://www.fibo.org/schema for details), in support of the W3C Financial Industry Business Ontology Community Group (http://www.fibo.org/community). Many class and property definitions are inspired by or based on http://www.fibo.org." URI="http://schema.org/BankAccount"/>
+	<Plusprofil:DatatypeProperty base_Property="EAID_4FF80202_831B_430e_884D_55C308F57A1C" functionalProperty="false" comment__da_="modsvarer NEM-VALUTAKODE&#xA;ISO 4217 currency designators.&#xA;&#xA;Valutakoder&#xA;ISO 4217 tre tegn,&#xA;bestÃ¥r af iso 3166 alph2  + tegn&#xA;4217 indeholder bÃ¥de alph, numeric og decimal&#xA;&#xA;Udstillet som Currency NAL&#xA;" URI="http://dbpedia.org/ontology/currencyCode" isDefinedBy="http://dbpedia.org/ontology/"/>
 	<Plusprofil:DatatypeProperty base_Property="EAID_B35FD18B_790F_4371_8B89_3B5A5FC7AE1E" functionalProperty="false" comment__da_="modsvarer NEM-KONTONUMMER og NEM-UDENLANDSK-KONTONUMMER" URI="https://data.gov.dk/model/nemkontoregisteret#accountIdentifier"/>
 	<Plusprofil:DatatypeProperty base_Property="EAID_4CDE6973_9650_4dae_86BD_B40D1206B20B" functionalProperty="false" comment__da_="modsvarer NEM-NAVN1 &amp; NEM-NAVN2" URI="https://data.gov.dk/model/nemkontoregisteret#accountOwnerName   "/>
 	<Plusprofil:DatatypeProperty base_Property="EAID_DF92C790_0D81_487e_8A34_9BFB6A77D2DE" functionalProperty="false" comment__da_="modsvarer NEM-REGISTRERINGSNR" URI="https://data.gov.dk/model/nemkontoregisteret#bankBranchIdentifier"/>
